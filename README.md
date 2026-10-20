@@ -94,3 +94,40 @@ Content preparation scripts are `scripts/import-wiki.py`, `scripts/build-referen
 Static text assets are precompressed in the generated Worker bundle. Binary image assets stay in their native encoding. Source scripts and Android assets remain ordinary local files. The build checks support Cloudflare's compressed Worker size limit.
 
 The larger library raises progress-backup limits to 5,000 identifiers and increases JSON backup import/export capacity. No email or user account is introduced.
+
+### v0.4 fact database, edition picker and discovery
+
+Open `/#database` for the current published fact collection. The table is built from
+`web/facts.json`, so future published facts appear automatically. Search covers both
+languages, tags and IDs; edition/version filters and CSV/JSON exports operate on
+all matching rows, even when only 50 rows are displayed. Exports contain both
+language descriptions, source context, tags, topics, edition scopes, verification
+flags, source dates, Blockwise links and original Wiki links. CSV text is quoted
+and spreadsheet formula prefixes are escaped. The APK can save catalogue exports
+in Downloads (Android 10+); older devices use the share sheet.
+
+`web/versions.json` is a sourced suggestion index for Java, Bedrock, Pocket,
+individual Legacy Console platforms, 3DS, Education, Pi, MinecraftEdu and other
+historical editions. The historical Wiki archive is dated 2025-11-05; the Java
+launcher manifest supplements it. This index is incomplete, especially for old
+platform derivatives and post-archive Bedrock builds. Every edition accepts a
+custom exact build name rather than pretending missing releases do not exist.
+A version appearing in the picker does not establish that a fact applies to it.
+Unknown/unverified ranges are excluded by default when a version filter is set.
+Non-numeric development ranges can be submitted for review, but are not silently
+compared as semantic release versions. Java + Bedrock submissions expand into two
+separate scopes; platform-specific facts must keep their scopes separate.
+
+Refresh the source index with `python3 scripts/update-version-catalog.py`
+(Python standard library and curl). All records retain Wiki attribution links.
+
+Discovery ordering uses a per-session random seed, unread/recent-exposure
+preferences and round-robin entity grouping to avoid long runs of the same mob.
+The local exposure list contains only fact IDs. The refresh button creates a new
+mix; no recommendation service or account is required. Mobile navigation exposes
+Discover, Encyclopedia, Database and More; the rest remain available in the menu.
+
+Validation: `node tests/frontend.mjs`, `node tests/backend.mjs`, build and
+`node scripts/validate-artifact.mjs`. The response check verifies decoded assets,
+including the catalogue module and version index. These are JavaScript/HTTP
+checks; no browser viewport or physical Android device test was available.

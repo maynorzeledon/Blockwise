@@ -25,7 +25,7 @@ assert.equal(
 console.log("Artifact is valid ESM and exports default.fetch");
 
 // The hosting proxy must receive decoded bytes, not gzip bytes with a header it may strip.
-for (const [path, marker] of [['/', '<!DOCTYPE html>'], ['/app.js', ''], ['/facts.json', '[']]) {
+for (const [path, marker] of [['/', '<!DOCTYPE html>'], ['/app.js', "'use strict';"] , ['/catalog.js', 'let '] , ['/versions.json', '{'], ['/facts.json', '[']]) {
   const response = await workerModule.default.fetch(new Request('https://blockwise.test'+path), {});
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('Content-Encoding'), null);
