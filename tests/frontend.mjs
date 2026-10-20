@@ -7,4 +7,5 @@ vm.runInContext("category='redstone';render()",context);assert.equal((element('#
 vm.runInContext("page='saved';category='all';state.saved=['cat'];render()",context);assert.equal((element('#main').innerHTML.match(/class="card"/g)||[]).length,1);
 vm.runInContext("openFact('pumpkin')",context);assert.match(element('#dialog').innerHTML,/https:\/\/minecraft.wiki\/w\/Carved_Pumpkin/);assert.match(element('#dialog').innerHTML,/Comprueba la fuente/);assert.equal(element('#dialog').open,true);
 for(const page of ['topics','settings','community']){vm.runInContext(`page='${page}';render()`,context);assert.ok(element('#main').innerHTML.length>400)}
+vm.runInContext("window.BlockwiseNative={};page='settings';render()",context);assert.match(element('#main').innerHTML,/backendurl/);
 assert.throws(()=>vm.runInContext("validate({saved:[]})",context));assert.ok(facts.every(f=>f.en.body.length>=3&&f.es.body.length>=3&&new URL(f.source).hostname==='minecraft.wiki'));console.log('Frontend: English/Spanish views, translation parity, category filtering, bookmarks, full articles, source URLs, settings, contribution form, and backup validation passed (headless JS, not browser QA).');

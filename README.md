@@ -33,7 +33,7 @@ A native Android WebView shell bundles all eight articles for offline use, saves
 
 GitHub Actions → **Build Android APK** runs on main pushes or manual dispatch. Download `Blockwise-Android-APK` from the completed run and extract `app-debug.apk`. This is a debug-signed testing APK, not a store release. Debug signing keys generated on separate runners can differ; an update may require reinstalling, so export a backup first. For stable public distribution, configure a persistent private release keystore and release signing; do not commit signing keys.
 
-Before building with online reports/backups, set the repository variable `BLOCKWISE_API_ORIGIN` to the public Cloudflare origin (no trailing slash), or enter it in manual workflow dispatch. An APK built without it still supports offline reading and local progress; online requests fail visibly and keep form text. A private preview URL is not a substitute for the public API origin.
+In the APK, open Settings → Website connection and enter your public Cloudflare origin to enable reports/backups without reinstalling. To bake in a default before building, set the repository variable `BLOCKWISE_API_ORIGIN` to the public Cloudflare origin (no trailing slash), or enter it in manual workflow dispatch. An APK built without it still supports offline reading and local progress; online requests fail visibly and keep form text. A private preview URL is not a substitute for the public API origin.
 
 Local build (JDK 17, Gradle 8.9, Android SDK 35 installed):
 
