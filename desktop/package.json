@@ -1,0 +1,37 @@
+{
+  "name": "blockwise",
+  "version": "0.7.0",
+  "description": "Sourced Minecraft discoveries in English and Spanish",
+  "author": "Blockwise contributors",
+  "license": "MIT",
+  "main": "main.cjs",
+  "scripts": {
+    "build": "electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "44.9.2",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.mayprep.blockwise",
+    "productName": "Blockwise",
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "web/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "artifactName": "Blockwise-Windows-Setup.exe",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

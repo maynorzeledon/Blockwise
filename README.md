@@ -191,3 +191,32 @@ insets, checks the HTML navigation bounds, opens/hides the keyboard, rotates the
 activity, and captures screenshots. CI runs these on Android 15 and 16 with
 three-button and gesture navigation. Reports are attached to the workflow run.
 These emulator checks do not substitute for a physical Samsung device check.
+
+
+## Version 0.7 — facts first, Android + Windows
+
+The website root is the bilingual product/download page; `/app/` opens the fact feed.
+Installed apps open the feed directly. The feed appends 24 facts at a time automatically,
+keeps category-strip scroll position, and does not repeat cards within a mix. At the end
+of the matching collection it offers a new mix rather than claiming unlimited unique facts.
+
+`web/catalog-supplement.json` contains 20 curated legacy/Earth/Dungeons/Legends discoveries
+and game edition definitions. The bundler and native asset scripts merge it into the
+complete offline catalogue (921 facts). Keep base and supplement fact IDs unique.
+New game edition version lists are intentionally empty until researched; exact missing
+builds can still be entered and unknown applicability is labeled, never inferred as all versions.
+Dungeons II uses explicit official supplemental sources pending a direct current Wiki review.
+
+Windows: `npm ci --prefix desktop`, `node scripts/desktop-assets.mjs`, then
+`npm run build --prefix desktop` on Windows. The Electron wrapper runs local content with
+Node integration off, a sandboxed renderer, context isolation, restricted external links,
+and a narrowly scoped update bridge. The installer is per-user and retains local data.
+The Windows workflow builds and launches the packaged app for a fact-feed smoke check.
+
+Apps check the repository's latest GitHub release on startup and periodically. A new
+version presents an Update button linking to the corresponding official installer.
+Android and Windows installation approval remains controlled by the operating system.
+There is no silent installer, Play Protect bypass, or claim of verified developer status.
+Stable Android updates require the same private release key for every release, and a
+higher versionCode. Do not publish private keys, passwords, or debug APKs as stable updates.
+The website only shows direct download links for assets actually present in the latest release.

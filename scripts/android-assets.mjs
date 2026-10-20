@@ -11,3 +11,11 @@ fs.writeFileSync(dest+'/app.js',js);
 // Native insets own the viewport. Match the status/navigation-bar surround to the web theme.
 const theme=fs.readFileSync('web/theme.js','utf8').replace('return dark}',"window.BlockwiseNative?.setChromeDark(dark);return dark}");
 fs.writeFileSync(dest+'/theme.js',theme);
+
+// Web installs open the feed, too; the native copy never opens the marketing page.
+fs.writeFileSync(dest+'/manifest.webmanifest',fs.readFileSync('web/manifest.webmanifest','utf8').replace('/app/','/'));
+
+// Materialize the complete catalogue for offline installed apps.
+const supplement=JSON.parse(fs.readFileSync('web/catalog-supplement.json','utf8'));
+for(const name of ['facts','versions']){const value=JSON.parse(fs.readFileSync('web/'+name+'.json','utf8'));if(name==='facts')value.push(...supplement.facts);else value.editions.push(...supplement.editions);fs.writeFileSync(dest+ '/'+name+'.json',JSON.stringify(value))}
+fs.writeFileSync(dest+ '/catalog-supplement.json','{"facts":[],"editions":[]}');

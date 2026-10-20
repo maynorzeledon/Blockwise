@@ -1,0 +1,1 @@
+const {contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('BlockwiseDesktop',{latestRelease:()=>ipcRenderer.invoke('latest-release'),openExternal:url=>ipcRenderer.invoke('open-external',url)});

@@ -56,6 +56,18 @@ public class WindowInsetsTest {
   File file=new File(rule.getActivity().getExternalFilesDir(null),mode+"-"+name+".png");
   try(FileOutputStream out=new FileOutputStream(file)){shot.compress(Bitmap.CompressFormat.PNG,100,out);}shot.recycle();
  }
+ @Test public void feedLoadsAndCategoryStripStaysPut()throws Exception{
+  waitForPage();
+  assertEquals("Hero should not hide the fact feed","false",js("!!document.querySelector('.hero')"));
+  assertEquals("Initial feed batch","36",js("document.querySelectorAll('.feed-grid .card').length"));
+  js("document.querySelector('#feed-end').scrollIntoView();true");
+  long end=SystemClock.uptimeMillis()+8000;
+  while(SystemClock.uptimeMillis()<end&&Integer.parseInt(js("document.querySelectorAll('.feed-grid .card').length"))<=36)SystemClock.sleep(100);
+  assertTrue("Scrolling must automatically load more unique cards",Integer.parseInt(js("document.querySelectorAll('.feed-grid .card').length"))>36);
+  assertEquals("No duplicate cards in this feed","true",js("(()=>{const a=[...document.querySelectorAll('.feed-grid .title-button')].map(b=>b.dataset.open);return new Set(a).size===a.length})()"));
+  assertEquals("Category strip must retain its offset","true",js("(()=>{const strip=document.querySelector('.filterbar');strip.scrollLeft=220;const x=strip.scrollLeft;document.querySelector('[data-category=survival]').click();return Math.abs(document.querySelector('.filterbar').scrollLeft-x)<2})()"));
+  js("document.querySelector('[data-category=all]').click();window.scrollTo(0,0);true");
+ }
  @Test public void portraitAndLandscapeStayInsideSystemBars()throws Exception{
   InstrumentationRegistry.getInstrumentation().runOnMainSync(()->rule.getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT));
   checkSafeBounds("portrait");

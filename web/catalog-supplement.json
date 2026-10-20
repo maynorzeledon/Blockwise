@@ -1,0 +1,1339 @@
+{
+  "facts": [
+    {
+      "id": "legacy-4j",
+      "category": "legacy",
+      "topics": [
+        "legacy",
+        "history"
+      ],
+      "tags": [
+        "legacy",
+        "history"
+      ],
+      "game": "minecraft",
+      "en": {
+        "title": "One name, several consoles",
+        "summary": "Legacy Console Edition is the umbrella name for the discontinued console editions developed by 4J Studios. It is a family of editions, not a previous name for every version of Bedrock.",
+        "body": [
+          "Legacy Console Edition is the umbrella name for the discontinued console editions developed by 4J Studios. It is a family of editions, not a previous name for every version of Bedrock."
+        ]
+      },
+      "es": {
+        "title": "Un nombre, varias consolas",
+        "summary": "Legacy Console Edition agrupa las ediciones de consola descontinuadas desarrolladas por 4J Studios. Es una familia de ediciones; no es el nombre anterior de todas las versiones de Bedrock.",
+        "body": [
+          "Legacy Console Edition agrupa las ediciones de consola descontinuadas desarrolladas por 4J Studios. Es una familia de ediciones; no es el nombre anterior de todas las versiones de Bedrock."
+        ]
+      },
+      "context": {
+        "en": "Legacy Console Edition is the umbrella name for the discontinued console editions developed by 4J Studios. It is a family of editions, not a previous name for every version of Bedrock.",
+        "es": "Legacy Console Edition agrupa las ediciones de consola descontinuadas desarrolladas por 4J Studios. Es una familia de ediciones; no es el nombre anterior de todas las versiones de Bedrock."
+      },
+      "source": "https://minecraft.wiki/w/Legacy_Console_Edition",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "xbox360",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "xboxone",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps3",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps4",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "psvita",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "wiiu",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "switch",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legacy-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/a4241d7d89c78ecca1aa2cf81b0bf1f8-minigamemasters_header_b.png",
+        "sourcePage": "https://www.minecraft.net/en-us/article/mini-game-masters-glide-console",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legacy gameplay",
+          "es": "legacy — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legacy-tumble",
+      "category": "legacy",
+      "topics": [
+        "legacy",
+        "history"
+      ],
+      "tags": [
+        "legacy",
+        "history"
+      ],
+      "game": "minecraft",
+      "en": {
+        "title": "The floor is the weapon",
+        "summary": "In the Legacy Console minigame Tumble, players break the floor beneath their opponents to make them fall. Shovels and snowballs turn the arena itself into the contest.",
+        "body": [
+          "In the Legacy Console minigame Tumble, players break the floor beneath their opponents to make them fall. Shovels and snowballs turn the arena itself into the contest."
+        ]
+      },
+      "es": {
+        "title": "El suelo es el arma",
+        "summary": "En Tumble, el minijuego de Legacy Console, los jugadores rompen el suelo bajo sus rivales para hacerlos caer. Las palas y las bolas de nieve convierten la arena en parte del combate.",
+        "body": [
+          "En Tumble, el minijuego de Legacy Console, los jugadores rompen el suelo bajo sus rivales para hacerlos caer. Las palas y las bolas de nieve convierten la arena en parte del combate."
+        ]
+      },
+      "context": {
+        "en": "In the Legacy Console minigame Tumble, players break the floor beneath their opponents to make them fall. Shovels and snowballs turn the arena itself into the contest.",
+        "es": "En Tumble, el minijuego de Legacy Console, los jugadores rompen el suelo bajo sus rivales para hacerlos caer. Las palas y las bolas de nieve convierten la arena en parte del combate."
+      },
+      "source": "https://minecraft.wiki/w/Tumble",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "xbox360",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "xboxone",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps3",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps4",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legacy-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/a4241d7d89c78ecca1aa2cf81b0bf1f8-minigamemasters_header_b.png",
+        "sourcePage": "https://www.minecraft.net/en-us/article/mini-game-masters-glide-console",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legacy gameplay",
+          "es": "legacy — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legacy-sixteen",
+      "category": "legacy",
+      "topics": [
+        "legacy",
+        "history"
+      ],
+      "tags": [
+        "legacy",
+        "history"
+      ],
+      "game": "minecraft",
+      "en": {
+        "title": "Sixteen players, on two legacy consoles",
+        "summary": "The March 28, 2017 console update added support for up to 16 players in Battle and Glide specifically on Xbox One and PlayStation 4. This was not a universal limit across all legacy platforms.",
+        "body": [
+          "The March 28, 2017 console update added support for up to 16 players in Battle and Glide specifically on Xbox One and PlayStation 4. This was not a universal limit across all legacy platforms."
+        ]
+      },
+      "es": {
+        "title": "Dieciséis jugadores en dos consolas Legacy",
+        "summary": "La actualización de consolas del 28 de marzo de 2017 añadió hasta 16 jugadores en Battle y Glide específicamente en Xbox One y PlayStation 4. No era un límite común a todas las plataformas Legacy.",
+        "body": [
+          "La actualización de consolas del 28 de marzo de 2017 añadió hasta 16 jugadores en Battle y Glide específicamente en Xbox One y PlayStation 4. No era un límite común a todas las plataformas Legacy."
+        ]
+      },
+      "context": {
+        "en": "The March 28, 2017 console update added support for up to 16 players in Battle and Glide specifically on Xbox One and PlayStation 4. This was not a universal limit across all legacy platforms.",
+        "es": "La actualización de consolas del 28 de marzo de 2017 añadió hasta 16 jugadores en Battle y Glide específicamente en Xbox One y PlayStation 4. No era un límite común a todas las plataformas Legacy."
+      },
+      "source": "https://minecraft.wiki/w/Template:Console_version/2017-03-28",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "xboxone",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps4",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legacy-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/a4241d7d89c78ecca1aa2cf81b0bf1f8-minigamemasters_header_b.png",
+        "sourcePage": "https://www.minecraft.net/en-us/article/mini-game-masters-glide-console",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legacy gameplay",
+          "es": "legacy — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legacy-offhand",
+      "category": "legacy",
+      "topics": [
+        "legacy",
+        "history"
+      ],
+      "tags": [
+        "legacy",
+        "history"
+      ],
+      "game": "minecraft",
+      "en": {
+        "title": "The off-hand started with a short guest list",
+        "summary": "When the off-hand arrived in legacy console updates, its supported items were initially maps and arrows. A later update added the totem of undying. Java-style unrestricted dual wielding should not be assumed.",
+        "body": [
+          "When the off-hand arrived in legacy console updates, its supported items were initially maps and arrows. A later update added the totem of undying. Java-style unrestricted dual wielding should not be assumed."
+        ]
+      },
+      "es": {
+        "title": "La mano secundaria empezó con pocos invitados",
+        "summary": "Cuando llegó la mano secundaria a Legacy Console, al principio admitía mapas y flechas. Una actualización posterior añadió el tótem de la inmortalidad. No debe suponerse que funcionaba igual que en Java.",
+        "body": [
+          "Cuando llegó la mano secundaria a Legacy Console, al principio admitía mapas y flechas. Una actualización posterior añadió el tótem de la inmortalidad. No debe suponerse que funcionaba igual que en Java."
+        ]
+      },
+      "context": {
+        "en": "When the off-hand arrived in legacy console updates, its supported items were initially maps and arrows. A later update added the totem of undying. Java-style unrestricted dual wielding should not be assumed.",
+        "es": "Cuando llegó la mano secundaria a Legacy Console, al principio admitía mapas y flechas. Una actualización posterior añadió el tótem de la inmortalidad. No debe suponerse que funcionaba igual que en Java."
+      },
+      "source": "https://minecraft.wiki/w/Dual_wield#History",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "xbox360",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "xboxone",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps3",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "ps4",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "psvita",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "wiiu",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        },
+        {
+          "edition": "switch",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legacy-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/a4241d7d89c78ecca1aa2cf81b0bf1f8-minigamemasters_header_b.png",
+        "sourcePage": "https://www.minecraft.net/en-us/article/mini-game-masters-glide-console",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legacy gameplay",
+          "es": "legacy — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "earth-rubies",
+      "category": "earth",
+      "topics": [
+        "earth",
+        "history"
+      ],
+      "tags": [
+        "earth",
+        "history"
+      ],
+      "game": "earth",
+      "en": {
+        "title": "Rubies found a home in Earth",
+        "summary": "Rubies were a currency in Minecraft Earth. Players could obtain them from tappables, challenges and adventures; version 0.33.0 removed the option to buy them in the shop.",
+        "body": [
+          "Rubies were a currency in Minecraft Earth. Players could obtain them from tappables, challenges and adventures; version 0.33.0 removed the option to buy them in the shop."
+        ]
+      },
+      "es": {
+        "title": "Los rubíes encontraron su lugar en Earth",
+        "summary": "Los rubíes eran una moneda de Minecraft Earth. Se obtenían con objetos del mapa, desafíos y aventuras; la versión 0.33.0 eliminó su compra en la tienda.",
+        "body": [
+          "Los rubíes eran una moneda de Minecraft Earth. Se obtenían con objetos del mapa, desafíos y aventuras; la versión 0.33.0 eliminó su compra en la tienda."
+        ]
+      },
+      "context": {
+        "en": "Rubies were a currency in Minecraft Earth. Players could obtain them from tappables, challenges and adventures; version 0.33.0 removed the option to buy them in the shop.",
+        "es": "Los rubíes eran una moneda de Minecraft Earth. Se obtenían con objetos del mapa, desafíos y aventuras; la versión 0.33.0 eliminó su compra en la tienda."
+      },
+      "source": "https://minecraft.wiki/w/Earth:Ruby",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "earth",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/earth-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/insider-features/my-minecraft-earth-diary/Tappabales.jpeg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/my-minecraft-earth-diary",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "earth gameplay",
+          "es": "earth — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "earth-tappables",
+      "category": "earth",
+      "topics": [
+        "earth",
+        "history"
+      ],
+      "tags": [
+        "earth",
+        "history"
+      ],
+      "game": "earth",
+      "en": {
+        "title": "A walk could fill your inventory",
+        "summary": "Minecraft Earth placed tappables on its real-world map. Repeatedly tapping a nearby chest, tree, block or mob collected items into the player’s inventory. This describes the historical game, not a currently playable feature.",
+        "body": [
+          "Minecraft Earth placed tappables on its real-world map. Repeatedly tapping a nearby chest, tree, block or mob collected items into the player’s inventory. This describes the historical game, not a currently playable feature."
+        ]
+      },
+      "es": {
+        "title": "Un paseo podía llenar tu inventario",
+        "summary": "Minecraft Earth colocaba objetos interactivos en su mapa del mundo real. Al tocar varias veces un cofre, árbol, bloque o criatura cercanos, se recogían objetos para el inventario. Es una función histórica, no una función que se pueda jugar actualmente.",
+        "body": [
+          "Minecraft Earth colocaba objetos interactivos en su mapa del mundo real. Al tocar varias veces un cofre, árbol, bloque o criatura cercanos, se recogían objetos para el inventario. Es una función histórica, no una función que se pueda jugar actualmente."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Earth placed tappables on its real-world map. Repeatedly tapping a nearby chest, tree, block or mob collected items into the player’s inventory. This describes the historical game, not a currently playable feature.",
+        "es": "Minecraft Earth colocaba objetos interactivos en su mapa del mundo real. Al tocar varias veces un cofre, árbol, bloque o criatura cercanos, se recogían objetos para el inventario. Es una función histórica, no una función que se pueda jugar actualmente."
+      },
+      "source": "https://minecraft.wiki/w/Earth:Tappable",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "earth",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/earth-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/insider-features/my-minecraft-earth-diary/Tappabales.jpeg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/my-minecraft-earth-diary",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "earth gameplay",
+          "es": "earth — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "earth-sunset-cow",
+      "category": "earth",
+      "topics": [
+        "earth",
+        "history"
+      ],
+      "tags": [
+        "earth",
+        "history"
+      ],
+      "game": "earth",
+      "en": {
+        "title": "A cow painted like a sunset",
+        "summary": "The sunset cow was an Earth-exclusive cow variant with black and golden-brown fur. The Wiki lists it as uncommon, obtainable from cow tappables with a 2.5% chance.",
+        "body": [
+          "The sunset cow was an Earth-exclusive cow variant with black and golden-brown fur. The Wiki lists it as uncommon, obtainable from cow tappables with a 2.5% chance."
+        ]
+      },
+      "es": {
+        "title": "Una vaca con colores de atardecer",
+        "summary": "La vaca del atardecer era una variante exclusiva de Earth, con pelaje negro y marrón dorado. La Wiki la clasifica como poco común y registra una probabilidad del 2,5 % en los objetos de vaca del mapa.",
+        "body": [
+          "La vaca del atardecer era una variante exclusiva de Earth, con pelaje negro y marrón dorado. La Wiki la clasifica como poco común y registra una probabilidad del 2,5 % en los objetos de vaca del mapa."
+        ]
+      },
+      "context": {
+        "en": "The sunset cow was an Earth-exclusive cow variant with black and golden-brown fur. The Wiki lists it as uncommon, obtainable from cow tappables with a 2.5% chance.",
+        "es": "La vaca del atardecer era una variante exclusiva de Earth, con pelaje negro y marrón dorado. La Wiki la clasifica como poco común y registra una probabilidad del 2,5 % en los objetos de vaca del mapa."
+      },
+      "source": "https://minecraft.wiki/w/Earth:Sunset_Cow",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "earth",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/earth-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/insider-features/my-minecraft-earth-diary/Tappabales.jpeg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/my-minecraft-earth-diary",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "earth gameplay",
+          "es": "earth — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "earth-bronzed-chicken",
+      "category": "earth",
+      "topics": [
+        "earth",
+        "history"
+      ],
+      "tags": [
+        "earth",
+        "history"
+      ],
+      "game": "earth",
+      "en": {
+        "title": "Earth had bronzed chickens",
+        "summary": "Minecraft Earth version 0.23.0, released on August 12, 2020, added bronzed chickens to chicken tappables. It also let players unlock additional crafting tables and furnaces with rubies.",
+        "body": [
+          "Minecraft Earth version 0.23.0, released on August 12, 2020, added bronzed chickens to chicken tappables. It also let players unlock additional crafting tables and furnaces with rubies."
+        ]
+      },
+      "es": {
+        "title": "Earth tenía gallinas bronceadas",
+        "summary": "La versión 0.23.0 de Minecraft Earth, publicada el 12 de agosto de 2020, añadió gallinas bronceadas a los objetos de gallina del mapa. También permitió desbloquear más mesas de trabajo y hornos con rubíes.",
+        "body": [
+          "La versión 0.23.0 de Minecraft Earth, publicada el 12 de agosto de 2020, añadió gallinas bronceadas a los objetos de gallina del mapa. También permitió desbloquear más mesas de trabajo y hornos con rubíes."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Earth version 0.23.0, released on August 12, 2020, added bronzed chickens to chicken tappables. It also let players unlock additional crafting tables and furnaces with rubies.",
+        "es": "La versión 0.23.0 de Minecraft Earth, publicada el 12 de agosto de 2020, añadió gallinas bronceadas a los objetos de gallina del mapa. También permitió desbloquear más mesas de trabajo y hornos con rubíes."
+      },
+      "source": "https://minecraft.wiki/w/Earth:0.23.0",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "earth",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/earth-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/insider-features/my-minecraft-earth-diary/Tappabales.jpeg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/my-minecraft-earth-diary",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "earth gameplay",
+          "es": "earth — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons-enchantment-slots",
+      "category": "dungeons",
+      "topics": [
+        "dungeons"
+      ],
+      "tags": [
+        "dungeons",
+        "mechanics"
+      ],
+      "game": "dungeons",
+      "en": {
+        "title": "One slot, several possibilities",
+        "summary": "In Minecraft Dungeons, a weapon or armor item can have up to three enchantment slots, each offering up to three random choices. A slot’s choices are alternatives, not three effects automatically granted together.",
+        "body": [
+          "In Minecraft Dungeons, a weapon or armor item can have up to three enchantment slots, each offering up to three random choices. A slot’s choices are alternatives, not three effects automatically granted together."
+        ]
+      },
+      "es": {
+        "title": "Una ranura, varias posibilidades",
+        "summary": "En Minecraft Dungeons, un arma o armadura puede tener hasta tres ranuras de encantamiento, cada una con hasta tres opciones aleatorias. Las opciones de una ranura son alternativas; no se conceden todas a la vez.",
+        "body": [
+          "En Minecraft Dungeons, un arma o armadura puede tener hasta tres ranuras de encantamiento, cada una con hasta tres opciones aleatorias. Las opciones de una ranura son alternativas; no se conceden todas a la vez."
+        ]
+      },
+      "context": {
+        "en": "In Minecraft Dungeons, a weapon or armor item can have up to three enchantment slots, each offering up to three random choices. A slot’s choices are alternatives, not three effects automatically granted together.",
+        "es": "En Minecraft Dungeons, un arma o armadura puede tener hasta tres ranuras de encantamiento, cada una con hasta tres opciones aleatorias. Las opciones de una ranura son alternativas; no se conceden todas a la vez."
+      },
+      "source": "https://minecraft.wiki/w/Dungeons:Enchantment",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "dungeons",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/dungeons-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/screenshots/highblockhalls-1x1.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-dungeons",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons gameplay",
+          "es": "dungeons — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons-gilded",
+      "category": "dungeons",
+      "topics": [
+        "dungeons"
+      ],
+      "tags": [
+        "dungeons",
+        "mechanics"
+      ],
+      "game": "dungeons",
+      "en": {
+        "title": "Gilded gear brings an extra enchantment",
+        "summary": "Gilded weapons and armor in Minecraft Dungeons have an additional built-in enchantment, at tier I, II or III. That built-in effect is separate from the regular enchantment slots.",
+        "body": [
+          "Gilded weapons and armor in Minecraft Dungeons have an additional built-in enchantment, at tier I, II or III. That built-in effect is separate from the regular enchantment slots."
+        ]
+      },
+      "es": {
+        "title": "El equipo dorado trae un encantamiento extra",
+        "summary": "Las armas y armaduras doradas de Minecraft Dungeons tienen un encantamiento integrado adicional, de nivel I, II o III. Ese efecto está separado de las ranuras normales.",
+        "body": [
+          "Las armas y armaduras doradas de Minecraft Dungeons tienen un encantamiento integrado adicional, de nivel I, II o III. Ese efecto está separado de las ranuras normales."
+        ]
+      },
+      "context": {
+        "en": "Gilded weapons and armor in Minecraft Dungeons have an additional built-in enchantment, at tier I, II or III. That built-in effect is separate from the regular enchantment slots.",
+        "es": "Las armas y armaduras doradas de Minecraft Dungeons tienen un encantamiento integrado adicional, de nivel I, II o III. Ese efecto está separado de las ranuras normales."
+      },
+      "source": "https://minecraft.wiki/w/Dungeons:Enchantment",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "dungeons",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/dungeons-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/screenshots/highblockhalls-1x1.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-dungeons",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons gameplay",
+          "es": "dungeons — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons-rescue-enchantsmith",
+      "category": "dungeons",
+      "topics": [
+        "dungeons"
+      ],
+      "tags": [
+        "dungeons",
+        "mechanics"
+      ],
+      "game": "dungeons",
+      "en": {
+        "title": "A captured merchant can change your build",
+        "summary": "The Enchantsmith is first found imprisoned in Highblock Halls. After rescue, this Minecraft Dungeons camp merchant rerolls gear enchantments in exchange for gold.",
+        "body": [
+          "The Enchantsmith is first found imprisoned in Highblock Halls. After rescue, this Minecraft Dungeons camp merchant rerolls gear enchantments in exchange for gold."
+        ]
+      },
+      "es": {
+        "title": "Un comerciante cautivo puede cambiar tu equipo",
+        "summary": "El herrero de encantamientos aparece cautivo en los Salones de Bloques Altos. Tras rescatarlo, este comerciante del campamento de Minecraft Dungeons cambia encantamientos a cambio de oro.",
+        "body": [
+          "El herrero de encantamientos aparece cautivo en los Salones de Bloques Altos. Tras rescatarlo, este comerciante del campamento de Minecraft Dungeons cambia encantamientos a cambio de oro."
+        ]
+      },
+      "context": {
+        "en": "The Enchantsmith is first found imprisoned in Highblock Halls. After rescue, this Minecraft Dungeons camp merchant rerolls gear enchantments in exchange for gold.",
+        "es": "El herrero de encantamientos aparece cautivo en los Salones de Bloques Altos. Tras rescatarlo, este comerciante del campamento de Minecraft Dungeons cambia encantamientos a cambio de oro."
+      },
+      "source": "https://minecraft.wiki/w/Dungeons:Enchantsmith",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "dungeons",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/dungeons-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/screenshots/highblockhalls-1x1.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-dungeons",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons gameplay",
+          "es": "dungeons — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons-inventory",
+      "category": "dungeons",
+      "topics": [
+        "dungeons"
+      ],
+      "tags": [
+        "dungeons",
+        "mechanics"
+      ],
+      "game": "dungeons",
+      "en": {
+        "title": "Dungeons has a 300-slot inventory",
+        "summary": "The Minecraft Dungeons inventory has 300 scrollable slots for equipment, artifacts and cosmetics. Its layout is different from the survival inventory in Java and Bedrock.",
+        "body": [
+          "The Minecraft Dungeons inventory has 300 scrollable slots for equipment, artifacts and cosmetics. Its layout is different from the survival inventory in Java and Bedrock."
+        ]
+      },
+      "es": {
+        "title": "Dungeons tiene un inventario de 300 ranuras",
+        "summary": "El inventario de Minecraft Dungeons tiene 300 ranuras desplazables para equipo, artefactos y objetos cosméticos. Su diseño difiere del inventario de supervivencia de Java y Bedrock.",
+        "body": [
+          "El inventario de Minecraft Dungeons tiene 300 ranuras desplazables para equipo, artefactos y objetos cosméticos. Su diseño difiere del inventario de supervivencia de Java y Bedrock."
+        ]
+      },
+      "context": {
+        "en": "The Minecraft Dungeons inventory has 300 scrollable slots for equipment, artifacts and cosmetics. Its layout is different from the survival inventory in Java and Bedrock.",
+        "es": "El inventario de Minecraft Dungeons tiene 300 ranuras desplazables para equipo, artefactos y objetos cosméticos. Su diseño difiere del inventario de supervivencia de Java y Bedrock."
+      },
+      "source": "https://minecraft.wiki/w/Dungeons:Inventory",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "dungeons",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/dungeons-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/screenshots/highblockhalls-1x1.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-dungeons",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons gameplay",
+          "es": "dungeons — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legends-double-jump",
+      "category": "legends",
+      "topics": [
+        "legends"
+      ],
+      "tags": [
+        "legends",
+        "mechanics"
+      ],
+      "game": "legends",
+      "en": {
+        "title": "This frog can double-jump",
+        "summary": "The fearless frog mount in Minecraft Legends can jump again while in the air. It combines high jumps with faster movement in water, making it more than a cosmetic ride.",
+        "body": [
+          "The fearless frog mount in Minecraft Legends can jump again while in the air. It combines high jumps with faster movement in water, making it more than a cosmetic ride."
+        ]
+      },
+      "es": {
+        "title": "Esta rana puede dar un salto doble",
+        "summary": "La rana intrépida de Minecraft Legends puede volver a saltar en el aire. Combina grandes saltos con una mayor velocidad en el agua; no es solo una montura decorativa.",
+        "body": [
+          "La rana intrépida de Minecraft Legends puede volver a saltar en el aire. Combina grandes saltos con una mayor velocidad en el agua; no es solo una montura decorativa."
+        ]
+      },
+      "context": {
+        "en": "The fearless frog mount in Minecraft Legends can jump again while in the air. It combines high jumps with faster movement in water, making it more than a cosmetic ride.",
+        "es": "La rana intrépida de Minecraft Legends puede volver a saltar en el aire. Combina grandes saltos con una mayor velocidad en el agua; no es solo una montura decorativa."
+      },
+      "source": "https://minecraft.wiki/w/Legends:Fearless_Frog",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "legends",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legends-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/badger/screenshots/TU2-Update_Screenshots_Frog_Hero_1920x1080.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-legends",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legends gameplay",
+          "es": "legends — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legends-frog-history",
+      "category": "legends",
+      "topics": [
+        "legends",
+        "history"
+      ],
+      "tags": [
+        "legends",
+        "mechanics"
+      ],
+      "game": "legends",
+      "en": {
+        "title": "A new mount arrived after launch",
+        "summary": "Fearless frogs were announced at Minecraft Live on October 15, 2023, and added in Minecraft Legends version 1.18.14350. They were not part of the original launch roster.",
+        "body": [
+          "Fearless frogs were announced at Minecraft Live on October 15, 2023, and added in Minecraft Legends version 1.18.14350. They were not part of the original launch roster."
+        ]
+      },
+      "es": {
+        "title": "Una montura llegó después del lanzamiento",
+        "summary": "Las ranas intrépidas se anunciaron en Minecraft Live el 15 de octubre de 2023 y llegaron en la versión 1.18.14350 de Minecraft Legends. No formaban parte de las monturas del lanzamiento.",
+        "body": [
+          "Las ranas intrépidas se anunciaron en Minecraft Live el 15 de octubre de 2023 y llegaron en la versión 1.18.14350 de Minecraft Legends. No formaban parte de las monturas del lanzamiento."
+        ]
+      },
+      "context": {
+        "en": "Fearless frogs were announced at Minecraft Live on October 15, 2023, and added in Minecraft Legends version 1.18.14350. They were not part of the original launch roster.",
+        "es": "Las ranas intrépidas se anunciaron en Minecraft Live el 15 de octubre de 2023 y llegaron en la versión 1.18.14350 de Minecraft Legends. No formaban parte de las monturas del lanzamiento."
+      },
+      "source": "https://minecraft.wiki/w/Legends:Fearless_Frog#History",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "legends",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legends-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/badger/screenshots/TU2-Update_Screenshots_Frog_Hero_1920x1080.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-legends",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legends gameplay",
+          "es": "legends — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legends-witches",
+      "category": "legends",
+      "topics": [
+        "legends"
+      ],
+      "tags": [
+        "legends",
+        "mechanics"
+      ],
+      "game": "legends",
+      "en": {
+        "title": "Witches can be your allies",
+        "summary": "In the Minecraft Legends update that added witches, these potion brewers joined the player’s side. Their area attacks and buffs support the army against piglins.",
+        "body": [
+          "In the Minecraft Legends update that added witches, these potion brewers joined the player’s side. Their area attacks and buffs support the army against piglins."
+        ]
+      },
+      "es": {
+        "title": "Las brujas pueden ser tus aliadas",
+        "summary": "En la actualización de Minecraft Legends que añadió brujas, estas fabricantes de pociones se unieron al jugador. Sus ataques de área y mejoras ayudan al ejército contra los piglins.",
+        "body": [
+          "En la actualización de Minecraft Legends que añadió brujas, estas fabricantes de pociones se unieron al jugador. Sus ataques de área y mejoras ayudan al ejército contra los piglins."
+        ]
+      },
+      "context": {
+        "en": "In the Minecraft Legends update that added witches, these potion brewers joined the player’s side. Their area attacks and buffs support the army against piglins.",
+        "es": "En la actualización de Minecraft Legends que añadió brujas, estas fabricantes de pociones se unieron al jugador. Sus ataques de área y mejoras ayudan al ejército contra los piglins."
+      },
+      "source": "https://minecraft.wiki/w/Legends:New_updates_screen",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "legends",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legends-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/badger/screenshots/TU2-Update_Screenshots_Frog_Hero_1920x1080.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-legends",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legends gameplay",
+          "es": "legends — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "legends-skin-rewards",
+      "category": "legends",
+      "topics": [
+        "legends"
+      ],
+      "tags": [
+        "legends",
+        "mechanics"
+      ],
+      "game": "legends",
+      "en": {
+        "title": "A Lost Legend can leave you a new look",
+        "summary": "Minecraft Legends uses skins to change the appearance of heroes and mounts. Completing a Lost Legend awards its associated skin, linking a cosmetic reward to a challenge.",
+        "body": [
+          "Minecraft Legends uses skins to change the appearance of heroes and mounts. Completing a Lost Legend awards its associated skin, linking a cosmetic reward to a challenge."
+        ]
+      },
+      "es": {
+        "title": "Una leyenda perdida puede darte otra apariencia",
+        "summary": "Minecraft Legends usa aspectos para cambiar la apariencia del héroe y sus monturas. Al completar una leyenda perdida se obtiene su aspecto asociado como recompensa del desafío.",
+        "body": [
+          "Minecraft Legends usa aspectos para cambiar la apariencia del héroe y sus monturas. Al completar una leyenda perdida se obtiene su aspecto asociado como recompensa del desafío."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Legends uses skins to change the appearance of heroes and mounts. Completing a Lost Legend awards its associated skin, linking a cosmetic reward to a challenge.",
+        "es": "Minecraft Legends usa aspectos para cambiar la apariencia del héroe y sus monturas. Al completar una leyenda perdida se obtiene su aspecto asociado como recompensa del desafío."
+      },
+      "source": "https://minecraft.wiki/w/Legends:Skin",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "indexed",
+      "versionRanges": [
+        {
+          "edition": "legends",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas."
+      },
+      "image": {
+        "src": "/media/legends-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/badger/screenshots/TU2-Update_Screenshots_Frog_Hero_1920x1080.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/about-legends",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "legends gameplay",
+          "es": "legends — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons2-armor",
+      "category": "dungeons2",
+      "topics": [
+        "dungeons2"
+      ],
+      "tags": [
+        "dungeons2",
+        "mechanics"
+      ],
+      "game": "dungeons2",
+      "en": {
+        "title": "Armor became four decisions",
+        "summary": "Minecraft Dungeons II separates armor into a helmet, chestplate, leggings and boots. Its expanded equipment system has 12 combat slots, compared with six in the first game.",
+        "body": [
+          "Minecraft Dungeons II separates armor into a helmet, chestplate, leggings and boots. Its expanded equipment system has 12 combat slots, compared with six in the first game."
+        ]
+      },
+      "es": {
+        "title": "La armadura pasó a ser cuatro decisiones",
+        "summary": "Minecraft Dungeons II separa la armadura en casco, peto, pantalones y botas. Su sistema ampliado tiene 12 ranuras de combate, frente a seis en el primer juego.",
+        "body": [
+          "Minecraft Dungeons II separa la armadura en casco, peto, pantalones y botas. Su sistema ampliado tiene 12 ranuras de combate, frente a seis en el primer juego."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Dungeons II separates armor into a helmet, chestplate, leggings and boots. Its expanded equipment system has 12 combat slots, compared with six in the first game.",
+        "es": "Minecraft Dungeons II separa la armadura en casco, peto, pantalones y botas. Su sistema ampliado tiene 12 ranuras de combate, frente a seis en el primer juego."
+      },
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons_II",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "official-supplement",
+      "versionRanges": [
+        {
+          "edition": "dungeons2",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version. Wiki page not directly verified; fact checked against the linked official gameplay overview.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas. Página de la Wiki no verificada directamente; dato contrastado con la presentación oficial enlazada."
+      },
+      "supplementalSource": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+      "image": {
+        "src": "/media/dungeons2-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/spicewood/screenshots/d2_systems_jump.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons2 gameplay",
+          "es": "dungeons2 — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons2-jump",
+      "category": "dungeons2",
+      "topics": [
+        "dungeons2"
+      ],
+      "tags": [
+        "dungeons2",
+        "mechanics"
+      ],
+      "game": "dungeons2",
+      "en": {
+        "title": "Heroes can finally jump",
+        "summary": "Minecraft Dungeons II adds jumping alongside the dodge roll. A leap can help with exploration and can also turn into an attack from above.",
+        "body": [
+          "Minecraft Dungeons II adds jumping alongside the dodge roll. A leap can help with exploration and can also turn into an attack from above."
+        ]
+      },
+      "es": {
+        "title": "Los héroes por fin pueden saltar",
+        "summary": "Minecraft Dungeons II añade saltos además de la voltereta evasiva. Saltar ayuda a explorar y también permite atacar desde arriba.",
+        "body": [
+          "Minecraft Dungeons II añade saltos además de la voltereta evasiva. Saltar ayuda a explorar y también permite atacar desde arriba."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Dungeons II adds jumping alongside the dodge roll. A leap can help with exploration and can also turn into an attack from above.",
+        "es": "Minecraft Dungeons II añade saltos además de la voltereta evasiva. Saltar ayuda a explorar y también permite atacar desde arriba."
+      },
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons_II",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "official-supplement",
+      "versionRanges": [
+        {
+          "edition": "dungeons2",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version. Wiki page not directly verified; fact checked against the linked official gameplay overview.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas. Página de la Wiki no verificada directamente; dato contrastado con la presentación oficial enlazada."
+      },
+      "supplementalSource": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+      "image": {
+        "src": "/media/dungeons2-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/spicewood/screenshots/d2_systems_jump.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons2 gameplay",
+          "es": "dungeons2 — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons2-ammo",
+      "category": "dungeons2",
+      "topics": [
+        "dungeons2"
+      ],
+      "tags": [
+        "dungeons2",
+        "mechanics"
+      ],
+      "game": "dungeons2",
+      "en": {
+        "title": "Arrows recharge instead of running out",
+        "summary": "Projectile weapons in Minecraft Dungeons II use unlimited ammunition that recharges over time. The official gameplay overview describes this as a change from hunting for arrows.",
+        "body": [
+          "Projectile weapons in Minecraft Dungeons II use unlimited ammunition that recharges over time. The official gameplay overview describes this as a change from hunting for arrows."
+        ]
+      },
+      "es": {
+        "title": "Las flechas se recargan",
+        "summary": "Las armas de proyectiles de Minecraft Dungeons II usan munición ilimitada que se recarga con el tiempo. La presentación oficial describe este cambio frente a tener que buscar flechas.",
+        "body": [
+          "Las armas de proyectiles de Minecraft Dungeons II usan munición ilimitada que se recarga con el tiempo. La presentación oficial describe este cambio frente a tener que buscar flechas."
+        ]
+      },
+      "context": {
+        "en": "Projectile weapons in Minecraft Dungeons II use unlimited ammunition that recharges over time. The official gameplay overview describes this as a change from hunting for arrows.",
+        "es": "Las armas de proyectiles de Minecraft Dungeons II usan munición ilimitada que se recarga con el tiempo. La presentación oficial describe este cambio frente a tener que buscar flechas."
+      },
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons_II",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "official-supplement",
+      "versionRanges": [
+        {
+          "edition": "dungeons2",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version. Wiki page not directly verified; fact checked against the linked official gameplay overview.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas. Página de la Wiki no verificada directamente; dato contrastado con la presentación oficial enlazada."
+      },
+      "supplementalSource": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+      "image": {
+        "src": "/media/dungeons2-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/spicewood/screenshots/d2_systems_jump.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons2 gameplay",
+          "es": "dungeons2 — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    },
+    {
+      "id": "dungeons2-mixed-coop",
+      "category": "dungeons2",
+      "topics": [
+        "dungeons2"
+      ],
+      "tags": [
+        "dungeons2",
+        "mechanics"
+      ],
+      "game": "dungeons2",
+      "en": {
+        "title": "Couch co-op can meet online co-op",
+        "summary": "Minecraft Dungeons II supports mixed co-op: players sharing one console or PC can join additional players online, in a party of up to four heroes.",
+        "body": [
+          "Minecraft Dungeons II supports mixed co-op: players sharing one console or PC can join additional players online, in a party of up to four heroes."
+        ]
+      },
+      "es": {
+        "title": "El cooperativo local se une al de Internet",
+        "summary": "Minecraft Dungeons II admite cooperativo mixto: quienes comparten una consola o PC pueden unirse a otros jugadores por Internet, en grupos de hasta cuatro héroes.",
+        "body": [
+          "Minecraft Dungeons II admite cooperativo mixto: quienes comparten una consola o PC pueden unirse a otros jugadores por Internet, en grupos de hasta cuatro héroes."
+        ]
+      },
+      "context": {
+        "en": "Minecraft Dungeons II supports mixed co-op: players sharing one console or PC can join additional players online, in a party of up to four heroes.",
+        "es": "Minecraft Dungeons II admite cooperativo mixto: quienes comparten una consola o PC pueden unirse a otros jugadores por Internet, en grupos de hasta cuatro héroes."
+      },
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons_II",
+      "snapshot": "2026-10-20",
+      "translation": "editorial",
+      "status": "official-supplement",
+      "versionRanges": [
+        {
+          "edition": "dungeons2",
+          "mode": "unknown",
+          "from": "",
+          "to": "",
+          "verified": false
+        }
+      ],
+      "versionNotes": {
+        "en": "This fact identifies a game or historical edition. Its full build range has not been established; it is not marked as applying to every version. Wiki page not directly verified; fact checked against the linked official gameplay overview.",
+        "es": "Este dato identifica un juego o edición histórica. No se ha establecido el intervalo completo de versiones; no se marca como válido para todas. Página de la Wiki no verificada directamente; dato contrastado con la presentación oficial enlazada."
+      },
+      "supplementalSource": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+      "image": {
+        "src": "/media/dungeons2-game.webp",
+        "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/spicewood/screenshots/d2_systems_jump.jpg",
+        "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-gameplay-systems",
+        "credit": "Mojang Studios / Microsoft · Minecraft.net",
+        "type": "official-game-image",
+        "alt": {
+          "en": "dungeons2 gameplay",
+          "es": "dungeons2 — imagen del juego"
+        },
+        "rights": "Game imagery © Mojang/Microsoft; source attribution retained."
+      }
+    }
+  ],
+  "editions": [
+    {
+      "id": "earth",
+      "en": "Minecraft Earth",
+      "es": "Minecraft Earth",
+      "source": "https://minecraft.wiki/w/Minecraft_Earth",
+      "versions": []
+    },
+    {
+      "id": "dungeons",
+      "en": "Minecraft Dungeons",
+      "es": "Minecraft Dungeons",
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons",
+      "versions": []
+    },
+    {
+      "id": "dungeons2",
+      "en": "Minecraft Dungeons II",
+      "es": "Minecraft Dungeons II",
+      "source": "https://minecraft.wiki/w/Minecraft_Dungeons_II",
+      "versions": []
+    },
+    {
+      "id": "legends",
+      "en": "Minecraft Legends",
+      "es": "Minecraft Legends",
+      "source": "https://minecraft.wiki/w/Minecraft_Legends",
+      "versions": []
+    }
+  ]
+}
