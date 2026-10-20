@@ -25,8 +25,8 @@ jobs:
       - run: node tests/backend.mjs
       - run: node tests/theme.mjs
       - run: node tests/frontend.mjs
-      - run: bash scripts/build.sh
-      - run: node scripts/validate-artifact.mjs
+      - run: node scripts/bundle.mjs
+      - run: node scripts/validate-artifact.mjs worker/index.js
       - uses: android-actions/setup-android@v3
         with:
           packages: 'platforms;android-35 build-tools;35.0.0'
