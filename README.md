@@ -131,3 +131,47 @@ Validation: `node tests/frontend.mjs`, `node tests/backend.mjs`, build and
 `node scripts/validate-artifact.mjs`. The response check verifies decoded assets,
 including the catalogue module and version index. These are JavaScript/HTTP
 checks; no browser viewport or physical Android device test was available.
+
+### v0.5 machine-readable publishing and early theme
+
+Read-only publishing routes work on the same Worker as the app:
+
+- `/facts` — linked HTML index; `/facts/{id}` — full fact HTML with canonical URL,
+  language alternatives, visible source attribution and Article JSON-LD.
+- `/entry/{id}` — reference description/history/tables rendered without JavaScript.
+- `/developers` — human API guide and Dataset metadata.
+- `/api/v1/facts?limit=100&offset=0` — paginated fact records with a next URL.
+- `/api/v1/facts/all` — all filtered records; `?format=jsonl` for NDJSON.
+- `/api/v1/facts/{id}`, `/api/v1/entries`, `/api/v1/taxonomy`, `/api/v1/versions`.
+- `/openapi.json`, `/llms.txt`, `/robots.txt`, `/sitemap.xml`.
+
+Search filters: `q`, `tag` (comma-separated AND), `topic`, `edition`, `version`,
+`include_unverified=true`, `lang=en|es`. Development labels match exactly;
+non-numeric ranges are not guessed. Read-only endpoints allow cross-origin GET,
+HEAD and OPTIONS. Writes remain at the existing private submission/progress APIs.
+No keys, reports, attachments or recovery-code records are published by these routes.
+Current collection: 901 unique facts, including three newly edited historical facts.
+Requests for more facts than exist return the actual count, without duplicates.
+Raw datasets on the public GitHub repository also remain available for inspection.
+
+The private ChatGPT preview cannot be indexed by public search crawlers. Publish
+this Worker on a public Cloudflare origin without a sign-in/challenge to expose
+these routes to crawlers. Canonical URLs, links, OpenAPI servers and sitemaps use
+the request origin; no private preview domain is hardcoded in the publishing layer.
+Submit `/sitemap.xml` in the domain owner's search-console account if desired.
+The project has not submitted it or verified any search-console property.
+These are retrieval/SEO foundations, not ranking tricks. `llms.txt` is an optional
+reader guide, not a guaranteed search/ranking signal. No claim of priority,
+indexing or AI citation is made. Preserve Wiki license/source attribution and
+check separate image rights; API availability does not grant new reuse rights.
+
+`web/theme.js` runs synchronously in the document head before the stylesheet and
+before the fact fetch. It restores saved light/dark preferences, defaults to
+system, sets the root background/color scheme immediately, and watches system
+changes. The body and root palette agree before the main app renders. Android
+also reports system night mode through its bridge. Existing choices remain saved;
+Settings adds System (automatic), and the header cycles system/light/dark.
+
+Added checks: `node tests/theme.mjs`, plus live Worker response tests for API
+pagination/bulk data, CORS, private progress isolation, metadata and real HTML
+content. Browser first-paint and physical Android tests remain unperformed.

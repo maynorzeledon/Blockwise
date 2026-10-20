@@ -23,7 +23,10 @@ jobs:
           distribution: temurin
           java-version: '17'
       - run: node tests/backend.mjs
+      - run: node tests/theme.mjs
       - run: node tests/frontend.mjs
+      - run: bash scripts/build.sh
+      - run: node scripts/validate-artifact.mjs
       - uses: android-actions/setup-android@v3
         with:
           packages: 'platforms;android-35 build-tools;35.0.0'

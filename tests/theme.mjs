@@ -1,0 +1,8 @@
+import vm from 'node:vm';import fs from 'node:fs';import assert from 'node:assert/strict';
+const source=fs.readFileSync('web/theme.js','utf8');
+function boot(saved,systemDark){let handler;const root={dataset:{},style:{}},media={matches:systemDark,addEventListener:(type,fn)=>handler=fn},body={classList:{toggle:(key,on)=>{body.dark=on}}},win={};const ctx=vm.createContext({document:{documentElement:root,body:null,querySelector:()=>({setAttribute(){}})},window:win,localStorage:{getItem:()=>saved},matchMedia:()=>media});vm.runInContext(source,ctx);assert.equal(ctx.document.body,null);return {root,win,media,ctx,body,change:()=>handler()}}
+let x=boot(null,true);assert.equal(x.root.dataset.theme,'dark');assert.equal(x.root.style.backgroundColor,'#111e19');x.ctx.document.body=x.body;x.media.matches=false;x.change();assert.equal(x.root.dataset.theme,'light');assert.equal(x.body.dark,false);
+x=boot(JSON.stringify({theme:'dark'}),false);assert.equal(x.root.dataset.theme,'dark');x.media.matches=false;x.change();assert.equal(x.root.dataset.theme,'dark');x.win.BlockwiseTheme.apply('system');assert.equal(x.root.dataset.theme,'light');
+x=boot(JSON.stringify({theme:'light'}),true);assert.equal(x.root.dataset.theme,'light');x=boot('broken JSON',true);assert.equal(x.root.dataset.theme,'dark');
+const html=fs.readFileSync('web/index.html','utf8');assert.ok(html.indexOf('/theme.js')<html.indexOf('/style.css'));assert.match(fs.readFileSync('web/style.css','utf8'),/:root\[data-theme="dark"\]/);
+console.log('Theme: saved dark/light before body/data, default system, live OS changes and malformed storage fallback passed.');
