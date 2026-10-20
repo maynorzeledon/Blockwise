@@ -4,6 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.os.SystemClock;
 import android.view.View;
+import android.view.MotionEvent;
+import android.view.InputDevice;
 import android.view.inputmethod.InputMethodManager;
 import android.content.Context;
 import androidx.core.graphics.Insets;
@@ -62,8 +64,15 @@ public class WindowInsetsTest {
  }
  @Test public void keyboardHideRestoresSafeViewport()throws Exception{
   InstrumentationRegistry.getInstrumentation().runOnMainSync(()->rule.getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT));waitForPage();
-  js("document.querySelector('#search').scrollIntoView();document.querySelector('#search').focus();true");
-  InstrumentationRegistry.getInstrumentation().runOnMainSync(()->{MainActivity a=rule.getActivity();a.web.requestFocus();((InputMethodManager)a.getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(a.web,InputMethodManager.SHOW_IMPLICIT);});
+  js("document.querySelector('#search').scrollIntoView({block:'center'});true");SystemClock.sleep(500);
+  JSONObject field=new JSONObject((String)new JSONTokener(js("JSON.stringify((()=>{const r=document.querySelector('#search').getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height/2,width:innerWidth}})())")).nextValue());
+  final int[] location=new int[2];final int[] width={0};
+  InstrumentationRegistry.getInstrumentation().runOnMainSync(()->{rule.getActivity().web.getLocationOnScreen(location);width[0]=rule.getActivity().web.getWidth();});
+  float scale=(float)(width[0]/field.getDouble("width"));float x=location[0]+(float)field.getDouble("x")*scale,y=location[1]+(float)field.getDouble("y")*scale;
+  long now=SystemClock.uptimeMillis();MotionEvent down=MotionEvent.obtain(now,now,MotionEvent.ACTION_DOWN,x,y,0);down.setSource(InputDevice.SOURCE_TOUCHSCREEN);
+  MotionEvent up=MotionEvent.obtain(now,now+100,MotionEvent.ACTION_UP,x,y,0);up.setSource(InputDevice.SOURCE_TOUCHSCREEN);
+  assertTrue("Touch-down injection failed",InstrumentationRegistry.getInstrumentation().getUiAutomation().injectInputEvent(down,true));
+  assertTrue("Touch-up injection failed",InstrumentationRegistry.getInstrumentation().getUiAutomation().injectInputEvent(up,true));down.recycle();up.recycle();
   long end=SystemClock.uptimeMillis()+8000;boolean shown=false;
   while(SystemClock.uptimeMillis()<end){final boolean[] visible={false};InstrumentationRegistry.getInstrumentation().runOnMainSync(()->visible[0]=ViewCompat.getRootWindowInsets(rule.getActivity().viewport).isVisible(WindowInsetsCompat.Type.ime()));if(visible[0]){shown=true;break;}SystemClock.sleep(150);}
   assertTrue("Keyboard must actually open for this check",shown);checkSafeBounds("keyboard");
