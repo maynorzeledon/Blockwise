@@ -1,0 +1,36 @@
+name: Build Android APK
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      api_origin:
+        description: 'Public Cloudflare origin, e.g. https://blockwise.example.workers.dev (optional)'
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - run: node scripts/android-assets.mjs
+        env:
+          BLOCKWISE_API_ORIGIN: ${{ inputs.api_origin || vars.BLOCKWISE_API_ORIGIN }}
+      - run: gradle -p android assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Blockwise-Android-APK
+          path: android/app/build/outputs/apk/debug/app-debug.apk

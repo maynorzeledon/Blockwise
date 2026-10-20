@@ -1,0 +1,7 @@
+dist/
+site.tar.gz
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+*.jks

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import {api} from '../worker/backend.js';
+const records=new Map();const env={BUCKET:{async get(k){const s=records.get(k);return s===undefined?null:{text:async()=>s,json:async()=>JSON.parse(s)}},async put(k,v){records.set(k,v)},async delete(k){records.delete(k)}}};
+const req=(path,method='GET',body,headers={})=>new Request('https://blockwise.example'+path,{method,headers:{'Content-Type':'application/json',...headers},...(body?{body:JSON.stringify(body)}:{})});
+const submission={kind:'suggestion',language:'es',fact:'Un dato sobre Minecraft',details:'Revisar esta información antes de publicar.',source:'https://minecraft.wiki/w/Cat'};
+assert.equal((await api(req('/api/submissions','POST',submission),env)).status,201);assert.equal([...records.keys()].filter(k=>k.startsWith('submissions/')).length,1);
+assert.equal((await api(req('/api/submissions','POST',{...submission,source:'https://minecraft.wiki.evil.test/w/Cat'}),env)).status,400);
+assert.equal((await api(req('/api/submissions','POST',submission,{Origin:'https://evil.test'}),env)).status,403);
+assert.equal((await api(req('/api/submissions','POST',{...submission,website:'spam'}),env)).status,400);
+const token='a'.repeat(48),headers={Authorization:'Bearer '+token},progress={language:'es',theme:'dark',saved:['cat'],read:['cat'],topics:['mobs']};assert.equal((await api(req('/api/progress','PUT',progress,headers),env)).status,200);assert.deepEqual(await (await api(req('/api/progress','GET',null,headers),env)).json(),progress);assert.equal((await api(req('/api/progress','GET',null,{Authorization:'Bearer '+'b'.repeat(48)}),env)).status,404);assert.equal((await api(req('/api/progress','GET'),env)).status,401);await api(req('/api/progress','DELETE',null,headers),env);assert.equal((await api(req('/api/progress','GET',null,headers),env)).status,404);
+assert.equal((await api(req('/api/submissions','POST',{...submission,details:'x'.repeat(17000)}),env)).status,413);
+for(let i=0;i<7;i++)assert.equal((await api(req('/api/submissions','POST',submission),env)).status,201);assert.equal((await api(req('/api/submissions','POST',submission),env)).status,429);console.log('Backend: submissions, URL validation, origin checks, spam trap, size limits, throttling and recovery-code isolation passed.');

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cat",
+    "category": "mobs",
+    "source": "https://minecraft.wiki/w/Cat#Behavior",
+    "status": "indexed",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "Creepers have a feline weakness",
+      "summary": "Cats can make nearby creepers keep their distance.",
+      "body": [
+        "Cats are more than a companion for your base. Creepers normally avoid them, making a cat a useful addition around places where you spend time outdoors.",
+        "That does not turn a cat into a shield. A creeper that has already started its explosion can still be dangerous. Keep your distance rather than walking toward an ignited creeper just because a cat is nearby.",
+        "Try watching the interaction from a safe place in a Creative test world. Compare a creeper approaching a player with the same situation near a cat. The useful detail is avoidance, not immunity to explosions."
+      ]
+    },
+    "es": {
+      "title": "Los creepers tienen una debilidad felina",
+      "summary": "Los gatos hacen que los creepers cercanos se mantengan alejados.",
+      "body": [
+        "Los gatos son más que compañeros para tu base. Los creepers normalmente los evitan, por lo que tener un gato cerca de los lugares donde pasas tiempo al aire libre puede ser útil.",
+        "Eso no convierte al gato en un escudo. Un creeper que ya comenzó a explotar todavía puede ser peligroso. Mantén la distancia en vez de acercarte solo porque hay un gato cerca.",
+        "Observa la interacción desde un lugar seguro en un mundo de prueba en Creativo. Compara cómo se acerca un creeper al jugador con lo que ocurre cuando hay un gato cerca. La clave es que lo evita, no que impida todas las explosiones."
+      ]
+    }
+  },
+  {
+    "id": "pumpkin",
+    "category": "survival",
+    "source": "https://minecraft.wiki/w/Carved_Pumpkin#Usage",
+    "status": "indexed",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "A pumpkin changes eye contact",
+      "summary": "Wearing a carved pumpkin lets you look at endermen without provoking them by sight.",
+      "body": [
+        "An enderman can become hostile when a player looks at it. Wearing a carved pumpkin in the head slot prevents that particular way of provoking it.",
+        "The important word is carved: this is a wearable carved pumpkin, not simply a pumpkin sitting in your inventory. It can be helpful when traveling through places with many endermen.",
+        "This is not general protection from attacks. Hitting an enderman is a different action, and a pumpkin does not make you invulnerable. Its first-person overlay also reduces your view, so consider that tradeoff before exploring."
+      ]
+    },
+    "es": {
+      "title": "Una calabaza cambia el contacto visual",
+      "summary": "Una calabaza tallada en la cabeza permite mirar a los endermen sin provocarlos con la mirada.",
+      "body": [
+        "Un enderman puede volverse hostil cuando un jugador lo mira. Llevar una calabaza tallada en la ranura de la cabeza evita esa forma específica de provocarlo.",
+        "La palabra importante es tallada: tiene que ser una calabaza tallada que llevas puesta, no una calabaza guardada en el inventario. Puede ser útil al viajar por lugares con muchos endermen.",
+        "No es una protección contra cualquier ataque. Golpear a un enderman es otra acción, y la calabaza no te vuelve invulnerable. Además, su efecto visual en primera persona limita la vista, algo que conviene considerar antes de explorar."
+      ]
+    }
+  },
+  {
+    "id": "honey",
+    "category": "redstone",
+    "source": "https://minecraft.wiki/w/Honey_Block#Usage",
+    "status": "indexed",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "Sticky blocks that stay separate",
+      "summary": "Honey blocks and slime blocks do not stick to each other.",
+      "body": [
+        "Honey and slime are both useful in moving redstone builds. A piston can move an assembly of blocks connected through these sticky materials, subject to the usual movement rules.",
+        "The special interaction is between the two materials: honey and slime do not stick to one another. That allows adjacent moving sections to remain separate instead of becoming one connected assembly.",
+        "Builders use this separation in larger doors and flying machines. It does not remove the push limit of an individual piston. Instead, it lets a design divide work among multiple moving sections. Test the layout in the edition you play because other redstone behavior can differ."
+      ]
+    },
+    "es": {
+      "title": "Bloques pegajosos que se separan",
+      "summary": "Los bloques de miel y los de slime no se pegan entre sí.",
+      "body": [
+        "La miel y el slime sirven para construcciones móviles de redstone. Un pistón puede mover un conjunto de bloques conectados con estos materiales pegajosos, respetando las reglas normales de movimiento.",
+        "La interacción especial ocurre entre ambos materiales: la miel y el slime no se pegan entre sí. Así, dos secciones móviles que están una junto a la otra pueden mantenerse separadas.",
+        "Los constructores aprovechan esto en puertas grandes y máquinas voladoras. No elimina el límite de empuje de cada pistón. Permite repartir el trabajo entre varias secciones. Prueba el diseño en tu edición, porque otros comportamientos de redstone pueden variar."
+      ]
+    }
+  },
+  {
+    "id": "sheep",
+    "category": "secrets",
+    "source": "https://minecraft.wiki/w/Sheep#Easter_eggs",
+    "status": "partial",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "A sheep with a rainbow name",
+      "summary": "Naming a sheep jeb_ makes its wool cycle through colors.",
+      "body": [
+        "Minecraft has small surprises hidden in names. One example is a sheep named exactly jeb_, including the underscore at the end.",
+        "Use an anvil to rename a name tag, then use it on the sheep. Its visible wool cycles smoothly through a rainbow of colors. The spelling matters, so a similar name is not the same trigger.",
+        "The rainbow is a visual effect. It does not turn the sheep into a source of every wool color: shearing still gives wool of its underlying color. This makes it a fun decoration rather than a shortcut for collecting all the dyes."
+      ]
+    },
+    "es": {
+      "title": "Una oveja con nombre de arcoíris",
+      "summary": "Llamar jeb_ a una oveja hace que su lana cambie de color.",
+      "body": [
+        "Minecraft esconde pequeñas sorpresas en algunos nombres. Un ejemplo es una oveja llamada exactamente jeb_, incluyendo el guion bajo al final.",
+        "Cambia el nombre de una etiqueta en un yunque y úsala sobre la oveja. La lana visible cambia suavemente entre los colores del arcoíris. La escritura importa: un nombre parecido no activa el mismo efecto.",
+        "El arcoíris es un efecto visual. No convierte a la oveja en una fuente de todos los colores de lana: al esquilarla, obtienes lana de su color original. Es una decoración divertida, no un atajo para conseguir todos los tintes."
+      ]
+    }
+  },
+  {
+    "id": "water",
+    "category": "dimensions",
+    "source": "https://minecraft.wiki/w/The_Nether#Environment",
+    "status": "indexed",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "The Nether rejects your water bucket",
+      "summary": "Water placed from a bucket evaporates in the Nether.",
+      "body": [
+        "A bucket of water is useful in the Overworld, but do not assume it works the same way in the Nether. Attempting to place its water normally makes it evaporate instead of leaving a flowing water block.",
+        "That changes how you plan movement and construction. An ordinary water channel will not work as an item transport system there, and a water-bucket landing is not a reliable Nether escape plan.",
+        "The claim concerns placing water from a bucket during normal gameplay. It should not be read as a claim that every water-related object disappears. Commands, containers, and special mechanics need their own explanation."
+      ]
+    },
+    "es": {
+      "title": "El Nether rechaza tu cubo de agua",
+      "summary": "El agua colocada con un cubo se evapora en el Nether.",
+      "body": [
+        "Un cubo de agua es útil en el mundo normal, pero no funciona igual en el Nether. Al intentar colocar el agua, normalmente se evapora en lugar de dejar un bloque de agua corriente.",
+        "Eso cambia la manera de planear el movimiento y las construcciones. Un canal de agua común no sirve allí para transportar objetos, y aterrizar con un cubo de agua no es un plan de escape confiable.",
+        "Este dato se refiere a colocar agua con un cubo durante una partida normal. No significa que desaparezca cualquier objeto relacionado con el agua. Los comandos, recipientes y mecanismos especiales necesitan su propia explicación."
+      ]
+    }
+  },
+  {
+    "id": "sponge",
+    "category": "blocks",
+    "source": "https://minecraft.wiki/w/Sponge#Drying",
+    "status": "partial",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "A very fast way to dry a sponge",
+      "summary": "A wet sponge dries instantly when placed in the Nether.",
+      "body": [
+        "A wet sponge can become reusable without a furnace. Place it in the Nether and it changes back into a dry sponge.",
+        "This is useful after a water-clearing project: bring wet sponges through a portal, place them, and collect them again. You still need to place each sponge; simply carrying one in your inventory is not the same action.",
+        "The trick takes advantage of the dimension rather than a special crafting recipe. Check the linked Wiki section for the exact behavior in your game version. This article is a starter draft awaiting a direct check of the current Wiki page."
+      ]
+    },
+    "es": {
+      "title": "Una forma muy rápida de secar esponjas",
+      "summary": "Una esponja mojada se seca al instante al colocarla en el Nether.",
+      "body": [
+        "Una esponja mojada puede volver a usarse sin un horno. Colócala en el Nether y se convierte de nuevo en una esponja seca.",
+        "Esto sirve después de retirar agua de una zona: lleva las esponjas mojadas por un portal, colócalas y recógelas. Todavía tienes que colocar cada esponja; llevarla en el inventario no produce el mismo efecto.",
+        "El truco aprovecha la dimensión y no una receta especial. Revisa la sección enlazada de la Wiki para confirmar el comportamiento en tu versión. Este artículo inicial todavía necesita una revisión directa de la página actual."
+      ]
+    }
+  },
+  {
+    "id": "mushroom",
+    "category": "mobs",
+    "source": "https://minecraft.wiki/w/Mooshroom#Conversion",
+    "status": "partial",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "Lightning can change a mooshroom",
+      "summary": "Lightning can turn a red mooshroom into a brown one, and back again.",
+      "body": [
+        "A mooshroom has more than one color variant. A lightning strike can change a red one into a brown one; another strike can change it back.",
+        "That makes lightning a transformation mechanic, not just a source of damage or fire. Keep this separate from breeding or shearing: those are different interactions and should not be treated as the same way to change its color.",
+        "If you want to experiment, use a controlled test world instead of risking an animal in your survival base. The linked conversion section is the place to check details. This starter article still needs a direct review of the current Wiki page."
+      ]
+    },
+    "es": {
+      "title": "Un rayo puede cambiar una vacaseta",
+      "summary": "Un rayo puede convertir una vacaseta roja en marrón y viceversa.",
+      "body": [
+        "Las vacasetas tienen más de una variante de color. Un rayo puede convertir una roja en marrón; otro rayo puede volver a cambiarla.",
+        "Así, los rayos son un mecanismo de transformación, además de causar daño o fuego. Esto es distinto de criar o esquilar: son interacciones diferentes y no deben tratarse como la misma manera de cambiar su color.",
+        "Si quieres experimentar, usa un mundo de prueba controlado en vez de arriesgar un animal de tu base de Supervivencia. Revisa los detalles en la sección enlazada. Este artículo inicial todavía necesita una revisión directa de la página actual."
+      ]
+    }
+  },
+  {
+    "id": "bed",
+    "category": "dimensions",
+    "source": "https://minecraft.wiki/w/Bed#Exploding",
+    "status": "partial",
+    "edition": "Java & Bedrock",
+    "en": {
+      "title": "Some dimensions are no place for a nap",
+      "summary": "Trying to use a bed in the Nether or the End causes an explosion.",
+      "body": [
+        "A bed is familiar shelter in the Overworld, but using one in the Nether or the End has a very different result: it explodes.",
+        "The distinction is between placing and using. A bed can be part of a build, but interacting with it to sleep in those dimensions is dangerous. Do not assume it will safely set your respawn point.",
+        "For a survival trip, plan your respawn and backup supplies before entering another dimension. Read the Wiki section before experimenting with bed explosions. This starter draft needs direct verification against the current Wiki page and your edition."
+      ]
+    },
+    "es": {
+      "title": "Hay dimensiones donde no debes dormir",
+      "summary": "Intentar usar una cama en el Nether o el End provoca una explosión.",
+      "body": [
+        "Una cama ofrece descanso en el mundo normal, pero usarla en el Nether o el End tiene un resultado muy distinto: explota.",
+        "La diferencia está entre colocarla y usarla. Una cama puede formar parte de una construcción, pero interactuar con ella para dormir en esas dimensiones es peligroso. No supongas que establecerá tu punto de reaparición.",
+        "Antes de viajar a otra dimensión en Supervivencia, planea dónde reaparecerás y guarda provisiones de respaldo. Lee la sección de la Wiki antes de experimentar con estas explosiones. Este borrador necesita una verificación directa de la página actual y de tu edición."
+      ]
+    }
+  }
+]

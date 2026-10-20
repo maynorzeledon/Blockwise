@@ -1,0 +1,1 @@
+{"name":"blockwise","main":"worker/index.js","compatibility_date":"2026-10-01","r2_buckets":[{"binding":"BUCKET","bucket_name":"blockwise-data"}]}
