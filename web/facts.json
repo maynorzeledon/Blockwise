@@ -22,6 +22,52 @@
         "Eso no convierte al gato en un escudo. Un creeper que ya comenzó a explotar todavía puede ser peligroso. Mantén la distancia en vez de acercarte solo porque hay un gato cerca.",
         "Observa la interacción desde un lugar seguro en un mundo de prueba en Creativo. Compara cómo se acerca un creeper al jugador con lo que ocurre cuando hay un gato cerca. La clave es que lo evita, no que impida todas las explosiones."
       ]
+    },
+    "topics": [
+      "mobs",
+      "survival",
+      "hardcore",
+      "technical"
+    ],
+    "tags": [
+      "cat",
+      "creeper",
+      "taming",
+      "pathfinding",
+      "combat",
+      "explosions",
+      "mob-farms",
+      "survival"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "cat",
+      "src": "/media/cat.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/cat-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/cat",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "cat",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -47,6 +93,51 @@
         "La palabra importante es tallada: tiene que ser una calabaza tallada que llevas puesta, no una calabaza guardada en el inventario. Puede ser útil al viajar por lugares con muchos endermen.",
         "No es una protección contra cualquier ataque. Golpear a un enderman es otra acción, y la calabaza no te vuelve invulnerable. Además, su efecto visual en primera persona limita la vista, algo que conviene considerar antes de explorar."
       ]
+    },
+    "topics": [
+      "mobs",
+      "survival",
+      "hardcore",
+      "blocks",
+      "dimensions"
+    ],
+    "tags": [
+      "enderman",
+      "carved-pumpkin",
+      "end",
+      "combat",
+      "survival",
+      "exploration"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "enderman",
+      "src": "/media/enderman.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_enderman_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/enderman",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "enderman",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -72,6 +163,52 @@
         "La interacción especial ocurre entre ambos materiales: la miel y el slime no se pegan entre sí. Así, dos secciones móviles que están una junto a la otra pueden mantenerse separadas.",
         "Los constructores aprovechan esto en puertas grandes y máquinas voladoras. No elimina el límite de empuje de cada pistón. Permite repartir el trabajo entre varias secciones. Prueba el diseño en tu edición, porque otros comportamientos de redstone pueden variar."
       ]
+    },
+    "topics": [
+      "redstone",
+      "technical",
+      "creative",
+      "building",
+      "blocks"
+    ],
+    "tags": [
+      "honey",
+      "slime-blocks",
+      "pistons",
+      "flying-machines",
+      "automation",
+      "building",
+      "redstone"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "minecraft-snapshot-19w42a",
+      "src": "/media/minecraft-snapshot-19w42a.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/java-snapshots/1-15-main-folder/19w42a/19w42a_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w42a",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft snapshot 19w42a",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -97,6 +234,53 @@
         "Cambia el nombre de una etiqueta en un yunque y úsala sobre la oveja. La lana visible cambia suavemente entre los colores del arcoíris. La escritura importa: un nombre parecido no activa el mismo efecto.",
         "El arcoíris es un efecto visual. No convierte a la oveja en una fuente de todos los colores de lana: al esquilarla, obtienes lana de su color original. Es una decoración divertida, no un atajo para conseguir todos los tintes."
       ]
+    },
+    "topics": [
+      "mobs",
+      "secrets",
+      "creative",
+      "building"
+    ],
+    "tags": [
+      "sheep",
+      "name-tags",
+      "easter-eggs",
+      "wool",
+      "dyes",
+      "building"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "sheep",
+      "src": "/media/sheep.jpg",
+      "alt": {
+        "en": "An image of a sheep standing on a hilltop in the rain.",
+        "es": "Una oveja en Minecraft"
+      },
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/SpawningandDying_sheep.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "game-screenshot",
+      "rights": "© Mojang/Microsoft"
     }
   },
   {
@@ -122,6 +306,50 @@
         "Eso cambia la manera de planear el movimiento y las construcciones. Un canal de agua común no sirve allí para transportar objetos, y aterrizar con un cubo de agua no es un plan de escape confiable.",
         "Este dato se refiere a colocar agua con un cubo durante una partida normal. No significa que desaparezca cualquier objeto relacionado con el agua. Los comandos, recipientes y mecanismos especiales necesitan su propia explicación."
       ]
+    },
+    "topics": [
+      "dimensions",
+      "survival",
+      "hardcore",
+      "technical"
+    ],
+    "tags": [
+      "nether",
+      "water",
+      "survival",
+      "farms",
+      "portals",
+      "dimensions"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "around-block--nether-wastes",
+      "src": "/media/around-block--nether-wastes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/dont_nether_waste_your_time.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/around-block--nether-wastes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "around block  nether wastes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -147,6 +375,51 @@
         "Esto sirve después de retirar agua de una zona: lleva las esponjas mojadas por un portal, colócalas y recógelas. Todavía tienes que colocar cada esponja; llevarla en el inventario no produce el mismo efecto.",
         "El truco aprovecha la dimensión y no una receta especial. Revisa la sección enlazada de la Wiki para confirmar el comportamiento en tu versión. Este artículo inicial todavía necesita una revisión directa de la página actual."
       ]
+    },
+    "topics": [
+      "blocks",
+      "survival",
+      "technical",
+      "building",
+      "dimensions"
+    ],
+    "tags": [
+      "sponge",
+      "water",
+      "nether",
+      "building",
+      "farms",
+      "dimensions"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "block-week-sponge",
+      "src": "/media/block-week-sponge.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/6348115156c13f0ca148ff970b017522-sponge_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/block-week-sponge",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "block week sponge",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -172,6 +445,48 @@
         "Así, los rayos son un mecanismo de transformación, además de causar daño o fuego. Esto es distinto de criar o esquilar: son interacciones diferentes y no deben tratarse como la misma manera de cambiar su color.",
         "Si quieres experimentar, usa un mundo de prueba controlado en vez de arriesgar un animal de tu base de Supervivencia. Revisa los detalles en la sección enlazada. Este artículo inicial todavía necesita una revisión directa de la página actual."
       ]
+    },
+    "topics": [
+      "mobs",
+      "secrets",
+      "survival"
+    ],
+    "tags": [
+      "mooshroom",
+      "lightning",
+      "transformations",
+      "biomes",
+      "survival"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "mooshroom",
+      "src": "/media/mooshroom.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mooshroom-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mooshroom",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mooshroom",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   },
   {
@@ -197,6 +512,50 @@
         "La diferencia está entre colocarla y usarla. Una cama puede formar parte de una construcción, pero interactuar con ella para dormir en esas dimensiones es peligroso. No supongas que establecerá tu punto de reaparición.",
         "Antes de viajar a otra dimensión en Supervivencia, planea dónde reaparecerás y guarda provisiones de respaldo. Lee la sección de la Wiki antes de experimentar con estas explosiones. Este borrador necesita una verificación directa de la página actual y de tu edición."
       ]
+    },
+    "topics": [
+      "dimensions",
+      "survival",
+      "hardcore",
+      "blocks"
+    ],
+    "tags": [
+      "bed",
+      "nether",
+      "end",
+      "explosions",
+      "respawn",
+      "survival"
+    ],
+    "versionRanges": [
+      {
+        "edition": "java",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      },
+      {
+        "edition": "bedrock",
+        "mode": "unknown",
+        "from": "",
+        "to": "",
+        "verified": false
+      }
+    ],
+    "versionNotes": {
+      "en": "Supported version range has not been verified. Check the Wiki history and test in your version.",
+      "es": "Todavía no se verificó el rango de versiones. Revisa el historial de la Wiki y prueba en tu versión."
+    },
+    "image": {
+      "id": "taking-inventory--bed",
+      "src": "/media/taking-inventory--bed.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/taking-inventory/bed/header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/taking-inventory--bed",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "taking inventory  bed",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
     }
   }
 ]

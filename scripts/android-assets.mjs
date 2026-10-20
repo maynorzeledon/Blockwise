@@ -1,4 +1,4 @@
-import fs from 'node:fs';const dest='android/app/src/main/assets';fs.mkdirSync(dest,{recursive:true});for(const name of fs.readdirSync('web'))fs.copyFileSync('web/'+name,dest+'/'+name);let js=fs.readFileSync('web/app.js','utf8');
+import fs from 'node:fs';const dest='android/app/src/main/assets';fs.mkdirSync(dest,{recursive:true});fs.cpSync('web',dest,{recursive:true});let js=fs.readFileSync('web/app.js','utf8');
 js=js.replace("const blob=new Blob([JSON.stringify({version:1,...state},null,2)]", "if(window.BlockwiseNative){BlockwiseNative.exportBackup(JSON.stringify({version:1,...state},null,2));return}const blob=new Blob([JSON.stringify({version:1,...state},null,2)]");
 js=js.replace("if(navigator.share)await navigator.share", "if(window.BlockwiseNative){BlockwiseNative.share(text);return}if(navigator.share)await navigator.share");
 js=js.replace("function speak(id){", "function speak(id){if(window.BlockwiseNative){const f=facts.find(f=>f.id===id)[state.language];BlockwiseNative.speak([f.title,f.summary,...f.body].join('. '),state.language);return}");

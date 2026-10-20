@@ -1,0 +1,814 @@
+{
+  "assets": [
+    {
+      "id": "armadillo",
+      "src": "/media/armadillo.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_armadillo_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/armadillo",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "armadillo",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "axolotl",
+      "src": "/media/axolotl.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_axolotl_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/axolotl",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "axolotl",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "bat",
+      "src": "/media/bat.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/mm-bat-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/bat",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "bat",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "bee",
+      "src": "/media/bee.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/bee-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/bee",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "bee",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "blaze",
+      "src": "/media/blaze.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/blaze_1170x500(2).jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/blaze",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "blaze",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "camel",
+      "src": "/media/camel.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/mm-camel-header1.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/camel",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "camel",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "cat",
+      "src": "/media/cat.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/cat-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/cat",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "cat",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "chicken",
+      "src": "/media/chicken.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/chicken-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/chicken",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "chicken",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "cow",
+      "src": "/media/cow.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/cow-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/cow",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "cow",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "elder-guardian",
+      "src": "/media/elder-guardian.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_eg_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/elder-guardian",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "elder guardian",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "ender-dragon",
+      "src": "/media/ender-dragon.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_enderdragon_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/ender-dragon",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "ender dragon",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "enderman",
+      "src": "/media/enderman.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_enderman_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/enderman",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "enderman",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "endermite",
+      "src": "/media/endermite.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/endermite-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/endermite",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "endermite",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "evoker",
+      "src": "/media/evoker.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/evoker1170x500.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/evoker",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "evoker",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "ghast",
+      "src": "/media/ghast.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/ghast-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/ghast",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "ghast",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "hoglin",
+      "src": "/media/hoglin.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/hoglin_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/hoglin",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "hoglin",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "iron-golem",
+      "src": "/media/iron-golem.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/irongolem-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/iron-golem",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "iron golem",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "llama",
+      "src": "/media/llama.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/mm_llama_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/llama",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "llama",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "mooshroom",
+      "src": "/media/mooshroom.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mooshroom-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mooshroom",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mooshroom",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "panda",
+      "src": "/media/panda.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/panda_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/panda",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "panda",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "parrot",
+      "src": "/media/parrot.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/parrot-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/parrot",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "parrot",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "phantom",
+      "src": "/media/phantom.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm_phantom_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/phantom",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "phantom",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "rabbit",
+      "src": "/media/rabbit.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/rabbit-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/rabbit",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "rabbit",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "shulker",
+      "src": "/media/shulker.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/shulker_header2.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/shulker",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "shulker",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "slime",
+      "src": "/media/slime.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/slime_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/slime",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "slime",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "sniffer",
+      "src": "/media/sniffer.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/sniffer-header2.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/sniffer",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "sniffer",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "tadpole",
+      "src": "/media/tadpole.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/tadpole_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/tadpole",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "tadpole",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "tropical-fish",
+      "src": "/media/tropical-fish.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/tropicalfish-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/tropical-fish",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "tropical fish",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "turtle",
+      "src": "/media/turtle.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/turtle-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/turtle",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "turtle",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "warden",
+      "src": "/media/warden.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/meetwarden-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/warden",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "warden",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "wolf",
+      "src": "/media/wolf.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/wolf-header(mm).jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/wolf",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "wolf",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "happy-ghast",
+      "src": "/media/happy-ghast.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/happyghast_1170x500.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/happy-ghast",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "happy ghast",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "copper-golem",
+      "src": "/media/copper-golem.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/coppergolem-header2.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/copper-golem",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "copper golem",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "block-week--honey",
+      "src": "/media/block-week--honey.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/honey-header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/block-week--honey",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "block week  honey",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "block-week-sponge",
+      "src": "/media/block-week-sponge.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/6348115156c13f0ca148ff970b017522-sponge_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/block-week-sponge",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "block week sponge",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "taking-inventory--bed",
+      "src": "/media/taking-inventory--bed.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/taking-inventory/bed/header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/taking-inventory--bed",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "taking inventory  bed",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "minecraft-snapshot-19w42a",
+      "src": "/media/minecraft-snapshot-19w42a.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/java-snapshots/1-15-main-folder/19w42a/19w42a_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w42a",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft snapshot 19w42a",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "spawning-and-dying",
+      "src": "/media/spawning-and-dying.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/SpawningandDying_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "spawning and dying",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "hardcore-mode-bedrock-edition",
+      "src": "/media/hardcore-mode-bedrock-edition.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Article_Hardcore_Header_1170x500_.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/hardcore-mode-bedrock-edition",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "hardcore mode bedrock edition",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "what-minecraft",
+      "src": "/media/what-minecraft.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Minecraft_PC_Bundle_.Net_1170x500.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/what-minecraft",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "what minecraft",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "minecraft-commands",
+      "src": "/media/minecraft-commands.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/commands-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-commands",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft commands",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "around-block--nether-wastes",
+      "src": "/media/around-block--nether-wastes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/dont_nether_waste_your_time.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/around-block--nether-wastes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "around block  nether wastes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "craft-colourfully-dyes",
+      "src": "/media/craft-colourfully-dyes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/Article%20Pictures/Dyes.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/craft-colourfully-dyes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "craft colourfully dyes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "allay",
+      "src": "/media/mob-menagerie--allay.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/allay-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--allay",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  allay",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "cave-spider",
+      "src": "/media/meet-cave-spider.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/826d02ca7ced35f15500ce9cb0de0d8e-mob_cavespider_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-cave-spider",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet cave spider",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "creeper",
+      "src": "/media/meet-creeper.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/7c1455f760590454bc05063f6b212638-mob_creeper_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-creeper",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet creeper",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "dolphin",
+      "src": "/media/meet-dolphin.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/f475fb1748b46c43f8e262b72f96626c-Header.jpeg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-dolphin",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet dolphin",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "fox",
+      "src": "/media/mob-menagerie--fox.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/fox-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--fox",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  fox",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "frog",
+      "src": "/media/mob-menagerie--frog.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/frog_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--frog",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  frog",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "goat",
+      "src": "/media/mob-menagerie--goat.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/goat-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--goat",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  goat",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "guardian",
+      "src": "/media/meet-guardian.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/ffdd81f3387c3988585694f2e9b8e035-mob_guardian_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-guardian",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet guardian",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "horse",
+      "src": "/media/mob-menagerie--horse.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/horse-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--horse",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  horse",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "husk",
+      "src": "/media/meet-husk.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/762c293f02a4d1477ce7204726c5684e-mob_husk_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-husk",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet husk",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "magma-cube",
+      "src": "/media/meet-magma-cube.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/fbbc44e30e40070b75ebeb9f806aad84-mtm_magmacube_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-magma-cube",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet magma cube",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "polar-bear",
+      "src": "/media/mob-menagerie--polar-bear.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/polar-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--polar-bear",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  polar bear",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "ravager",
+      "src": "/media/meet-ravager.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/insider-features/meet-the-ravager/Header.jpeg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-ravager",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet ravager",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "salmon",
+      "src": "/media/mob-menagerie--salmon.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/salmond-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--salmon",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  salmon",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "silverfish",
+      "src": "/media/mob-menagerie--silverfish.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/silverfish-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--silverfish",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  silverfish",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "stray",
+      "src": "/media/meet-stray.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/9ae9f613cb5d2a41821f072de08a4a6c-meetthestray_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-stray",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet stray",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "strider",
+      "src": "/media/mob-menagerie--strider.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/mm-strider-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/mob-menagerie--strider",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "mob menagerie  strider",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "vex",
+      "src": "/media/meet-vex.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/2c0b0c45dd30fab9a851f6d8e085a25c-mob_vex_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-vex",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet vex",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "vindicator",
+      "src": "/media/meet-vindicator.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/7b28b1fd7badb147a7a82123d1774aaa-meetthevindicator_header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-vindicator",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet vindicator",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "wandering-trader",
+      "src": "/media/meet-wandering-trader.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/WanderingTrader_Header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-wandering-trader",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet wandering trader",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "wither",
+      "src": "/media/meet-wither.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/archive/96eea7718c1bd4cbd49865d4aedf334f-meet_the_wither_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/meet-wither",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "meet wither",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    {
+      "id": "sheep",
+      "src": "/media/sheep.jpg",
+      "alt": {
+        "en": "An image of a sheep standing on a hilltop in the rain.",
+        "es": "Una oveja en Minecraft"
+      },
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/SpawningandDying_sheep.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "game-screenshot",
+      "rights": "© Mojang/Microsoft"
+    }
+  ],
+  "missingMobImages": [
+    "bogged",
+    "breeze",
+    "cod",
+    "creaking",
+    "donkey",
+    "drowned",
+    "glow-squid",
+    "mule",
+    "ocelot",
+    "pig",
+    "piglin",
+    "piglin-brute",
+    "pillager",
+    "pufferfish",
+    "skeleton",
+    "skeleton-horse",
+    "snow-golem",
+    "spider",
+    "squid",
+    "trader-llama",
+    "villager",
+    "witch",
+    "wither-skeleton",
+    "zoglin",
+    "zombie",
+    "zombie-horse",
+    "zombie-villager",
+    "zombified-piglin",
+    "nautilus",
+    "zombie-nautilus"
+  ],
+  "topics": {
+    "mobs": {
+      "id": "cat",
+      "src": "/media/cat.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/cat-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/cat",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "cat",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "survival": {
+      "id": "taking-inventory--bed",
+      "src": "/media/taking-inventory--bed.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/taking-inventory/bed/header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/taking-inventory--bed",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "taking inventory  bed",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "creative": {
+      "id": "craft-colourfully-dyes",
+      "src": "/media/craft-colourfully-dyes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/Article%20Pictures/Dyes.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/craft-colourfully-dyes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "craft colourfully dyes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "hardcore": {
+      "id": "hardcore-mode-bedrock-edition",
+      "src": "/media/hardcore-mode-bedrock-edition.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Article_Hardcore_Header_1170x500_.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/hardcore-mode-bedrock-edition",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "hardcore mode bedrock edition",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "technical": {
+      "id": "minecraft-snapshot-19w42a",
+      "src": "/media/minecraft-snapshot-19w42a.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/java-snapshots/1-15-main-folder/19w42a/19w42a_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w42a",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft snapshot 19w42a",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "redstone": {
+      "id": "minecraft-snapshot-19w42a",
+      "src": "/media/minecraft-snapshot-19w42a.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/java-snapshots/1-15-main-folder/19w42a/19w42a_header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w42a",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft snapshot 19w42a",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "commands": {
+      "id": "minecraft-commands",
+      "src": "/media/minecraft-commands.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/commands-header.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/minecraft-commands",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "minecraft commands",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "mods": {
+      "id": "what-minecraft",
+      "src": "/media/what-minecraft.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Minecraft_PC_Bundle_.Net_1170x500.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/what-minecraft",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "what minecraft",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "building": {
+      "id": "craft-colourfully-dyes",
+      "src": "/media/craft-colourfully-dyes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/minecraft/Article%20Pictures/Dyes.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/craft-colourfully-dyes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "craft colourfully dyes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "secrets": {
+      "id": "sheep",
+      "src": "/media/sheep.jpg",
+      "alt": {
+        "en": "An image of a sheep standing on a hilltop in the rain.",
+        "es": "Una oveja en Minecraft"
+      },
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/SpawningandDying_sheep.jpg",
+      "sourcePage": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "game-screenshot",
+      "rights": "© Mojang/Microsoft"
+    },
+    "dimensions": {
+      "id": "around-block--nether-wastes",
+      "src": "/media/around-block--nether-wastes.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/dont_nether_waste_your_time.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/around-block--nether-wastes",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "around block  nether wastes",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    },
+    "blocks": {
+      "id": "block-week--honey",
+      "src": "/media/block-week--honey.jpg",
+      "originalUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/honey-header.png",
+      "sourcePage": "https://www.minecraft.net/en-us/article/block-week--honey",
+      "credit": "Mojang Studios / Microsoft · Minecraft.net",
+      "type": "official-game-image",
+      "alt": "block week  honey",
+      "rights": "Minecraft imagery © Mojang/Microsoft. Source credit retained; not covered by the project code license."
+    }
+  }
+}

@@ -5,3 +5,4 @@ android/local.properties
 android/app/build/
 android/build/
 *.jks
+worker/index.js
