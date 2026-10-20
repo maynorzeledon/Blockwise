@@ -3,6 +3,8 @@ set -euo pipefail
 
 project_root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 dist_root="$project_root/dist"
+cd "$project_root"
+node scripts/bundle.mjs
 
 rm -rf "$dist_root"
 mkdir -p "$dist_root/server" "$dist_root/.openai"

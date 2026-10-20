@@ -53,6 +53,7 @@ This is an installable PWA. Use Edge/Chrome's install option on Windows or a com
 ```sh
 node --check web/app.js
 node tests/backend.mjs
+node tests/frontend.mjs
 node scripts/bundle.mjs
 bash scripts/build.sh
 node scripts/validate-artifact.mjs
