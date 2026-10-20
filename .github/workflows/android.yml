@@ -36,8 +36,41 @@ jobs:
       - run: node scripts/android-assets.mjs
         env:
           BLOCKWISE_API_ORIGIN: ${{ inputs.api_origin || vars.BLOCKWISE_API_ORIGIN }}
-      - run: gradle -p android assembleDebug --no-daemon
+      - run: gradle -p android assembleDebug assembleDebugAndroidTest --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: Blockwise-Android-APK
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+            android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+
+  system-bars:
+    needs: apk
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        api: [35, 36]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: Blockwise-Android-APK
+          path: apk
+      - name: Enable emulator acceleration
+        run: sudo chmod a+rw /dev/kvm
+      - uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api }}
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          script: bash scripts/test-android-insets.sh
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Android-${{ matrix.api }}-system-bars
+          path: android-test-results

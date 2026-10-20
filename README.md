@@ -175,3 +175,19 @@ Settings adds System (automatic), and the header cycles system/light/dark.
 Added checks: `node tests/theme.mjs`, plus live Worker response tests for API
 pagination/bulk data, CORS, private progress isolation, metadata and real HTML
 content. Browser first-paint and physical Android tests remain unperformed.
+
+### v0.6 Android system-bar fix
+
+The APK now places its WebView inside a native FrameLayout. The container applies
+system-bar, display-cutout and keyboard insets to its own padding, which measures
+the actual WebView smaller. It forwards zeroed handled insets to Chromium so CSS
+safe-area handling cannot count the same space twice. Insets continue to update
+on keyboard hide, rotation, button navigation and gesture navigation. System-bar
+icon contrast and the surrounding native background follow the web theme.
+The website layout is unchanged by this Android-only fix.
+
+Android instrumentation checks real on-screen WebView bounds against platform
+insets, checks the HTML navigation bounds, opens/hides the keyboard, rotates the
+activity, and captures screenshots. CI runs these on Android 15 and 16 with
+three-button and gesture navigation. Reports are attached to the workflow run.
+These emulator checks do not substitute for a physical Samsung device check.

@@ -7,3 +7,7 @@ js=js.replace("if('serviceWorker'in navigator)navigator.serviceWorker.register('
 // A public Cloudflare origin can be configured after deployment. No credentials are bundled.
 const origin=process.env.BLOCKWISE_API_ORIGIN||'';if(origin&&!/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(origin))throw Error('Use a bare HTTPS API origin');js="const API_ORIGIN="+JSON.stringify(origin)+";const originalFetch=window.fetch.bind(window);window.fetch=(url,options)=>{if(typeof url==='string'&&url.startsWith('/api/')){const backend=localStorage.getItem('blockwise-api-origin')||API_ORIGIN;if(!backend)return Promise.reject(new Error('Public backend not configured'));return originalFetch(backend+url,options)}return originalFetch(url,options)};\n"+js;
 fs.writeFileSync(dest+'/app.js',js);
+
+// Native insets own the viewport. Match the status/navigation-bar surround to the web theme.
+const theme=fs.readFileSync('web/theme.js','utf8').replace('return dark}',"window.BlockwiseNative?.setChromeDark(dark);return dark}");
+fs.writeFileSync(dest+'/theme.js',theme);
