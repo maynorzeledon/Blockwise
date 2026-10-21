@@ -1,0 +1,43 @@
+name: Publish tested installers
+on:
+  push:
+    branches: [main]
+    paths: ['release-assets/Blockwise-Android.apk', 'release-assets/source.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require successful Android device tests and Windows launch check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for platform in android windows; do
+            run_id=$(node -p "require('./release-assets/source.json')['${platform}Run']")
+            gh run watch "$run_id" --exit-status
+            gh run view "$run_id" --json conclusion,status,headSha > "$platform-run.json"
+            node -e "const r=require('./$platform-run.json'),s=require('./release-assets/source.json');if(r.status!=='completed'||r.conclusion!=='success'||r.headSha!==s.sourceSha)throw Error('Tested build is not ready: $platform')"
+          done
+      - name: Fetch the tested Windows installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          windows_run=$(node -p "require('./release-assets/source.json').windowsRun")
+          gh run download "$windows_run" --name Blockwise-Windows --dir release-assets
+      - name: Publish versioned downloads and checksums
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd release-assets
+          sha256sum Blockwise-Android.apk Blockwise-Windows-Setup.exe > SHA256SUMS.txt
+          version=$(node -p "require('../web/release.json').version")
+          if gh release view "v$version" >/dev/null 2>&1; then
+            echo 'Release already exists; immutable version must not be replaced.' >&2
+            exit 1
+          fi
+          gh release create "v$version" --draft --target "$GITHUB_SHA" --title "Blockwise $version" --notes-file notes.md Blockwise-Android.apk Blockwise-Windows-Setup.exe SHA256SUMS.txt
+          gh release edit "v$version" --draft=false --latest

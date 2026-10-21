@@ -2,6 +2,7 @@ name: Build Android APK
 on:
   push:
     branches: [main]
+    paths: ['android/**', 'web/**', 'scripts/android-assets.mjs', '.github/workflows/android.yml']
   workflow_dispatch:
     inputs:
       api_origin:
@@ -37,6 +38,23 @@ jobs:
         env:
           BLOCKWISE_API_ORIGIN: ${{ inputs.api_origin || vars.BLOCKWISE_API_ORIGIN }}
       - run: gradle -p android assembleDebug assembleDebugAndroidTest assembleRelease --no-daemon
+      - name: Sign release APK with the permanent key, when configured
+        env:
+          KEYSTORE_BASE64: ${{ secrets.BLOCKWISE_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.BLOCKWISE_KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.BLOCKWISE_KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.BLOCKWISE_KEY_ALIAS }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo 'Release signing secrets are not configured; unsigned release artifact only.'
+            exit 0
+          fi
+          umask 077
+          keyfile="$RUNNER_TEMP/blockwise-release.jks"
+          trap 'rm -f "$keyfile"' EXIT
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$keyfile"
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" sign --ks "$keyfile" --ks-key-alias "${KEY_ALIAS:-blockwise}" --ks-pass env:KEYSTORE_PASSWORD --key-pass env:KEY_PASSWORD --out android/app/build/outputs/apk/release/Blockwise-Android.apk android/app/build/outputs/apk/release/app-release-unsigned.apk
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose android/app/build/outputs/apk/release/Blockwise-Android.apk
       - uses: actions/upload-artifact@v4
         with:
           name: Blockwise-Android-APK
@@ -44,6 +62,7 @@ jobs:
             android/app/build/outputs/apk/debug/app-debug.apk
             android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
             android/app/build/outputs/apk/release/app-release-unsigned.apk
+            android/app/build/outputs/apk/release/Blockwise-Android.apk
 
   system-bars:
     needs: apk

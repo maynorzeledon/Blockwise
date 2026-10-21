@@ -11,3 +11,5 @@ desktop/node_modules/
 desktop/dist/
 desktop/web/
 *.keystore
+release-assets/*.apk
+release-assets/*.exe
