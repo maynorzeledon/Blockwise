@@ -1,7 +1,5 @@
-Blockwise 0.7.3 — image review gallery and cleaner thumbnails
+Blockwise 0.7.4 — original Minecraft ruby icon
 
-Adds Images under More and the desktop sidebar: search unique artwork, enlarge it, inspect linked facts, copy image IDs, and request replacements with optional media. Reports use the existing private review system and require a connected backend in installed apps.
+Replaces the generated ruby with Mojang’s actual transparent inventory texture, sourced directly from Mojang/bedrock-samples. The icon is credited as representative artwork for the Minecraft Earth fact.
 
-Boots and saddle now use inventory item sprites. Endermite, Blaze, Glow Squid, Enderman and Sulfur Cube use clean, AI-edited transparent renders without surrounding particles. Credits identify edited artwork.
-
-Android uses the same permanent signing key for in-place updates from v0.7 and later. Windows installer included.
+Uses the existing permanent Android signing key for in-place updates.
