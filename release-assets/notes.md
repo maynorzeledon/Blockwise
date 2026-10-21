@@ -1,5 +1,3 @@
-Blockwise 0.7.4 — original Minecraft ruby icon
+Blockwise 0.7.5 — original game artwork
 
-Replaces the generated ruby with Mojang’s actual transparent inventory texture, sourced directly from Mojang/bedrock-samples. The icon is credited as representative artwork for the Minecraft Earth fact.
-
-Uses the existing permanent Android signing key for in-place updates.
+Includes the original Mojang ruby sprite, the official Minecraft.net sulfur cube artwork in its original orientation, and inventory item sprites for the arrow and chestplate. Removes the generated sulfur cube replacement. Transparent padding is trimmed without changing the official subject. Uses the same permanent Android signing key.
