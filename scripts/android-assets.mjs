@@ -17,5 +17,5 @@ fs.writeFileSync(dest+'/manifest.webmanifest',fs.readFileSync('web/manifest.webm
 
 // Materialize the complete catalogue for offline installed apps.
 const supplement=JSON.parse(fs.readFileSync('web/catalog-supplement.json','utf8'));
-for(const name of ['facts','versions']){const value=JSON.parse(fs.readFileSync('web/'+name+'.json','utf8'));if(name==='facts')value.push(...supplement.facts);else value.editions.push(...supplement.editions);fs.writeFileSync(dest+ '/'+name+'.json',JSON.stringify(value))}
+for(const name of ['facts','versions']){const value=JSON.parse(fs.readFileSync('web/'+name+'.json','utf8'));if(name==='facts'){value.push(...supplement.facts);const entries=JSON.parse(fs.readFileSync('web/entries.json','utf8'));for(const fact of value){const image=supplement.imageOverrides?.[fact.id]||entries.find(e=>e.id===fact.targetId)?.image;if(image?.src)fact.image=image}}else value.editions.push(...supplement.editions);fs.writeFileSync(dest+ '/'+name+'.json',JSON.stringify(value))}
 fs.writeFileSync(dest+ '/catalog-supplement.json','{"facts":[],"editions":[]}');

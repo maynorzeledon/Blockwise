@@ -1335,5 +1335,51 @@
       "source": "https://minecraft.wiki/w/Minecraft_Legends",
       "versions": []
     }
-  ]
+  ],
+  "imageOverrides": {
+    "sponge": {
+      "src": "/reference-images/sponge.webp",
+      "originalUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/_assets_/5af80496508534f4cdd561aac15bbc50/Sponge_JE3_BE3.png",
+      "sourcePage": "https://minecraft.wiki/w/Sponge",
+      "credit": "Minecraft Wiki contributors / Mojang Studios · 2025-11-05",
+      "type": "wiki-game-render",
+      "alt": {
+        "en": "Sponge",
+        "es": "Esponja"
+      }
+    },
+    "water": {
+      "src": "/reference-images/water-bucket.webp",
+      "originalUrl": "https://raw.githubusercontent.com/PrismarineJS/minecraft-assets/master/data/1.21.4/items/water_bucket.png",
+      "sourcePage": "https://minecraft.wiki/w/Water_Bucket",
+      "credit": "Mojang Studios / Microsoft · Minecraft Java 1.21.4 item texture, mirrored by PrismarineJS/minecraft-assets",
+      "type": "game-item-texture",
+      "alt": {
+        "en": "Water bucket",
+        "es": "Cubo con agua"
+      }
+    },
+    "discovery-killer-bunny-9aefba55": {
+      "src": "/reference-images/killer-bunny.webp",
+      "originalUrl": "https://www.pngkey.com/png/full/37-379833_orginal-rabbit-killer-rabbit-minecraft.png",
+      "sourcePage": "https://www.pngkey.com/maxpic/u2q8w7w7u2e6y3q8/",
+      "credit": "Minecraft game render © Mojang/Microsoft · PNGkey image mirror",
+      "type": "wiki-game-render",
+      "alt": {
+        "en": "Killer bunny, white with red eyes",
+        "es": "Conejo asesino blanco de ojos rojos"
+      }
+    },
+    "pumpkin": {
+      "src": "/reference-images/carved-pumpkin.webp",
+      "originalUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/_assets_/5af80496508534f4cdd561aac15bbc50/Carved_Pumpkin_(S)_JE5.png",
+      "sourcePage": "https://minecraft.wiki/w/Carved_Pumpkin",
+      "credit": "Minecraft Wiki contributors / Mojang Studios · 2025-11-05",
+      "type": "wiki-game-render",
+      "alt": {
+        "en": "Carved Pumpkin",
+        "es": "Calabaza tallada"
+      }
+    }
+  }
 }

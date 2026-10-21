@@ -2,5 +2,5 @@ import fs from 'node:fs';fs.rmSync('desktop/web',{recursive:true,force:true});fs
 
 // Materialize the complete catalogue for offline installed apps.
 const supplement=JSON.parse(fs.readFileSync('web/catalog-supplement.json','utf8'));
-for(const name of ['facts','versions']){const value=JSON.parse(fs.readFileSync('web/'+name+'.json','utf8'));if(name==='facts')value.push(...supplement.facts);else value.editions.push(...supplement.editions);fs.writeFileSync('desktop/web'+ '/'+name+'.json',JSON.stringify(value))}
+for(const name of ['facts','versions']){const value=JSON.parse(fs.readFileSync('web/'+name+'.json','utf8'));if(name==='facts'){value.push(...supplement.facts);const entries=JSON.parse(fs.readFileSync('web/entries.json','utf8'));for(const fact of value){const image=supplement.imageOverrides?.[fact.id]||entries.find(e=>e.id===fact.targetId)?.image;if(image?.src)fact.image=image}}else value.editions.push(...supplement.editions);fs.writeFileSync('desktop/web'+ '/'+name+'.json',JSON.stringify(value))}
 fs.writeFileSync('desktop/web'+ '/catalog-supplement.json','{"facts":[],"editions":[]}');

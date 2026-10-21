@@ -68,6 +68,13 @@ public class WindowInsetsTest {
   assertEquals("Category strip must retain its offset","true",js("(()=>{const strip=document.querySelector('.filterbar');strip.scrollLeft=220;const x=strip.scrollLeft;document.querySelector('[data-category=survival]').click();return Math.abs(document.querySelector('.filterbar').scrollLeft-x)<2})()"));
   js("document.querySelector('[data-category=all]').click();window.scrollTo(0,0);true");
  }
+ @Test public void cardArtworkIsAboveBriefText()throws Exception{
+  waitForPage();
+  assertEquals("Artwork should sit above text at phone dimensions","true",js("(()=>{const c=document.querySelector('.feed-grid .card');return c.querySelector('.card-art').getBoundingClientRect().bottom<=c.querySelector('.cardbody').getBoundingClientRect().top+1})()"));
+  assertEquals("Preview should be limited to three lines","3",js("Number(getComputedStyle(document.querySelector('.fact-preview')).webkitLineClamp)"));
+  assertEquals("Sponge uses its actual block render","true",js("facts.find(f=>f.id==='sponge').image.src==='/reference-images/sponge.webp'"));
+  assertEquals("Water fact uses its actual bucket item","true",js("facts.find(f=>f.id==='water').image.src==='/reference-images/water-bucket.webp'"));
+ }
  @Test public void portraitAndLandscapeStayInsideSystemBars()throws Exception{
   InstrumentationRegistry.getInstrumentation().runOnMainSync(()->rule.getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT));
   checkSafeBounds("portrait");
