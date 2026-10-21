@@ -32,7 +32,10 @@ public class WindowInsetsTest {
  }
  void waitForPage()throws Exception{
   long end=SystemClock.uptimeMillis()+20000;
-  while(SystemClock.uptimeMillis()<end){if("true".equals(js("!!document.querySelector('#mobile-nav button')")))return;SystemClock.sleep(150);}
+  while(SystemClock.uptimeMillis()<end){if("true".equals(js("!!document.querySelector('#mobile-nav button')&&!window.BlockwiseIntroActive"))){
+   final boolean[] focused={false};InstrumentationRegistry.getInstrumentation().runOnMainSync(()->focused[0]=rule.getActivity().hasWindowFocus());
+   if(focused[0]){InstrumentationRegistry.getInstrumentation().waitForIdleSync();SystemClock.sleep(700);return;}
+  }SystemClock.sleep(150);}
   fail("Bundled app did not render");
  }
  void checkSafeBounds(String name)throws Exception{
@@ -98,4 +101,17 @@ public class WindowInsetsTest {
   InstrumentationRegistry.getInstrumentation().runOnMainSync(()->{MainActivity a=rule.getActivity();((InputMethodManager)a.getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(a.web.getWindowToken(),0);});
   SystemClock.sleep(1000);checkSafeBounds("keyboard-hidden");
  }
+ @Test public void arcadeHasCompletePoolsHiddenAnswersAndAlignedCrossword()throws Exception{
+  waitForPage();
+  assertEquals("Complete item registry","1506",js("ArcadeCatalog.items.length"));
+  assertEquals("Complete block registry","1168",js("ArcadeCatalog.blocks.length"));
+  js("page='games';arcadeStart('blocks',true);true");
+  assertEquals("Answer artwork stays hidden","0",js("document.querySelectorAll('#main img').length"));
+  js("arcadeStart('crossword',true);true");
+  assertEquals("Crossword has real columns","true",js("(()=>{const rows=[...document.querySelectorAll('.arcade-cross-table tr')];const cells=rows[0].children;return rows.length>1&&cells.length>1&&cells[1].getBoundingClientRect().left>cells[0].getBoundingClientRect().left})()"));
+  js("arcadeStart('memory',true);arcadeFlip(0);arcadeFlip(arcadeGame.cards.findIndex(id=>id!==arcadeGame.cards[0]));true");
+  assertEquals("A pair is visible","2",js("arcadeGame.flips.length"));SystemClock.sleep(1400);
+  assertEquals("Mismatch automatically turns back","0",js("arcadeGame.flips.length"));
+ }
+
 }

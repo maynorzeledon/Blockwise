@@ -1,5 +1,9 @@
-Blockwise Arcade introduces six offline-friendly games in English and Spanish: Mob Mystery, Block Mystery, Item Mystery, Mini Crossword, Memory Match and Word Scramble.
+Rebuilds the arcade after feedback:
 
-Choose a daily challenge (resets at midnight UTC) or start unlimited practice rounds. Daily progress is saved on your device. The games use Blockwise's existing transparent reference artwork, with answer links back to the encyclopedia.
+- Replaces silhouette guessing with property comparisons and higher/lower clues. No answer images appear before solving or giving up.
+- Uses the complete Java 26.1 registry: 89 mobs, 1,168 blocks, and 1,506 items, with English and Spanish search. Includes technical blocks and spawn eggs; scope and sources appear in Games.
+- Removes Memory's Continue button. Eight pairs, automatic mismatches, and input locking while two cards are visible.
+- Repairs the crossword with a table layout that works with production security rules, standard clue numbering, clickable clues, automatic cursor movement, arrow keys and answer checking.
+- Expands Word Scramble to the complete item registry and removes its image giveaway.
 
-Find Games in the sidebar or under More on mobile. Includes the existing image review gallery and recent original Minecraft item icon fixes.
+Daily and practice modes remain available. Daily progress stays on the device.
