@@ -9,7 +9,7 @@ const origin=process.env.BLOCKWISE_API_ORIGIN||'';if(origin&&!/^https:\/\/[a-z0-
 fs.writeFileSync(dest+'/app.js',js);
 
 // Native insets own the viewport. Match the status/navigation-bar surround to the web theme.
-const theme=fs.readFileSync('web/theme.js','utf8').replace('return dark}',"window.BlockwiseNative?.setChromeDark(dark);return dark}");
+const theme=fs.readFileSync('web/theme.js','utf8').replace('return dark}',"window.BlockwiseNative?.setChromeDark(window.BlockwiseIntroActive||dark);return dark}");
 fs.writeFileSync(dest+'/theme.js',theme);
 
 // Web installs open the feed, too; the native copy never opens the marketing page.
