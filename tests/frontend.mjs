@@ -74,3 +74,7 @@ for(const language of ['en','es']){
 assert.equal(vm.runInContext("arcadeNormalize('Esmerálda  !')",context),'ESMERALDA');
 assert.equal(vm.runInContext("arcadeShuffle([1,2,3,4],123).join()===arcadeShuffle([1,2,3,4],123).join()",context),true);
 console.log('Arcade: six bilingual game screens, legal guess pools, six-attempt losses, daily resume, wins, 160 connected crossword grids and memory pairs passed.');
+vm.runInContext("state.language='en';arcadeStart('crossword',true)",context);
+assert.match(element('#main').innerHTML,/class="arcade-cross arcade-cols-\d+"/);
+assert.ok(!element('#main').innerHTML.includes('style='),'crossword works with the production stylesheet-only CSP');
+for(let n=1;n<=60;n++)assert.ok(fs.readFileSync('web/games.css','utf8').includes('.arcade-cols-'+n+'{--cols:'+n+'}'));
