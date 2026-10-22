@@ -44,3 +44,8 @@ assert.match(await(await get('/robots.txt')).text(),/Sitemap: https:\/\/blockwis
 console.log('Public HTTP: pagination without duplicates, bulk JSONL, source attribution, history/version filters, CORS, read-only methods, real HTML/JSON-LD pages, sitemap and private progress isolation passed.');
 
 const supplement=await(await get('/api/v1/facts/discovery-sulfur-cube-1')).json();assert.equal(supplement.source_snapshot,'2026-06-16');assert.ok(supplement.supplemental_source.includes('minecraft.net'));assert.ok((await(await get('/api/v1/facts?tag=allay')).json()).data.every(f=>f.archive_url&&f.source_snapshot));
+
+r=await get('/vendor/seedmap/seed_engine.wasm');assert.equal(r.status,200);assert.match(r.headers.get('Content-Type'),/application\/wasm/);assert.deepEqual([...new Uint8Array(await r.arrayBuffer()).slice(0,4)],[0,97,115,109]);
+for(const path of ['/reference-images/blaze-restored.png','/reference-images/sulfur-cube-item.png']){r=await get(path);assert.equal(r.status,200);assert.match(r.headers.get('Content-Type'),/image\/png/);assert.deepEqual([...new Uint8Array(await r.arrayBuffer()).slice(0,8)],[137,80,78,71,13,10,26,10])}
+r=await get('/app/');assert.match(r.headers.get('Content-Security-Policy'),/wasm-unsafe-eval/);assert.match(r.headers.get('Content-Security-Policy'),/frame-src https:\/\/holoprint-mc.github.io/);
+console.log('Integrated tools: packaged WASM has correct MIME and bytes; restored PNG thumbnails and HoloPrint/WASM CSP passed.');
