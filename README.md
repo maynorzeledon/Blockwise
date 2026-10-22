@@ -220,3 +220,13 @@ There is no silent installer, Play Protect bypass, or claim of verified develope
 Stable Android updates require the same private release key for every release, and a
 higher versionCode. Do not publish private keys, passwords, or debug APKs as stable updates.
 The website only shows direct download links for assets actually present in the latest release.
+
+### Games and Workshop
+
+The Arcade includes property-comparison guessing games, a real 3×3 crafting challenge, crossword, memory and word games, plus local collection books. Guessing answers stay hidden until solved or revealed. Crafting discoveries use the same recipe engine as the Workshop guide.
+
+The Tools section provides Java 26.1 crafting recipes (1,684 variants / 887 outputs), ingredient search, direct-material quantities, Nether/chunk/region coordinate calculations, and a local material inspector for Bedrock `.mcstructure`, Java structure `.nbt`, and `.litematic`. File parsing is bounded; files are not uploaded. The inspector counts the main block layer, not entities, secondary layers or container contents. It does not convert structures.
+
+Community tools are clearly marked external and open the original projects: ChunkBiomesGUI, Earthcomputer, Vanilla/Bedrock Tweaks, Schematicraft, Litematica Converter and HoloPrint.
+
+Data: PrismarineJS/minecraft-data, Java 26.1 (MIT). Inventory and block textures: Mojang Studios, extracted by PrismarineJS/minecraft-assets, Java 26.1. The inventory atlas contains first-frame textures; block icons use those textures on a simple isometric cube. Existing reference renders retain their individual credits. No third-party converter, seed-search or pack-builder code is bundled.
